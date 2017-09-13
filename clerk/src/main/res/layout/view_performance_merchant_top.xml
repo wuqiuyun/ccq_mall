@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <clerk.sz28yun.com.widget.SelectableLinearLayout
+                android:id="@+id/performance_count_ccj_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/gear_tab_bg"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    style="@style/text_normal"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/ic_performance_coupon"
+                    android:textSize="@dimen/ui_30_px"
+
+                    android:text="餐餐券"
+                    />
+                <TextView
+                    android:id="@+id/performance_count_ccj_tv"
+                    style="@style/text_caption_normal"
+                    android:text="0张"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="@dimen/ui_30_px"
+                    />
+
+            </clerk.sz28yun.com.widget.SelectableLinearLayout>
+            <clerk.sz28yun.com.widget.SelectableLinearLayout
+                android:id="@+id/performance_count_member_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/gear_tab_bg"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    style="@style/text_normal"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/ic_performance_vip"
+                    android:text="会员"
+                    android:textSize="@dimen/ui_30_px"
+                    />
+                <TextView
+                    android:id="@+id/performance_count_member_tv"
+                    style="@style/text_caption_normal"
+                    android:text="0名"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="@dimen/ui_30_px"
+                    />
+
+            </clerk.sz28yun.com.widget.SelectableLinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                android:id="@+id/describe_first_label_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/ui_30_px"
+                android:text="未验证"
+                />
+
+
+            <TextView
+                style="@style/text_caption_normal"
+                android:id="@+id/describe_first_value_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/ui_28_px"
+                android:text="0张"
+                />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                android:id="@+id/describe_second_label_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/ui_30_px"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="已验证"
+                />
+
+
+            <TextView
+                style="@style/text_caption_normal"
+                android:id="@+id/describe_secondt_value_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/ui_28_px"
+                android:text="0张"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

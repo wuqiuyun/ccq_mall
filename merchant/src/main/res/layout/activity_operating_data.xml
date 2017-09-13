@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+  >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/app_white"
+
+        >
+
+        <TextView
+            android:id="@+id/year_tv"
+            style="@style/text_normal"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_squ_b_blue"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/app_blue_light"
+            android:drawableRight="@mipmap/ic_triangle_blue"
+            android:gravity="center"
+            android:text="2016"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/app_blue_light"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="年"
+            />
+
+
+        <TextView
+            android:id="@+id/month_tv"
+            style="@style/text_normal"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_squ_b_blue"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/app_blue_light"
+            android:drawableRight="@mipmap/ic_triangle_blue"
+            android:gravity="center"
+            android:text="12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/app_blue_light"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="月"
+            />
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/type_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        >
+
+        <RadioButton
+            android:id="@+id/type_order"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="订单分析"
+            android:gravity="center"
+            android:layout_marginRight="40dp"
+            android:textColor="@drawable/selector_text_white_blue"
+            android:background="@drawable/selector_squ_r4_b_transparency_blue"
+            android:checked="true"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/type_merchant"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="商家浏览量"
+            android:textColor="@drawable/selector_text_white_blue"
+            android:background="@drawable/selector_squ_r4_b_transparency_blue"
+            android:gravity="center"
+            android:button="@null"
+            />
+    </RadioGroup>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <per.sue.gear2.widget.PageStatusLayout
+            android:id="@+id/type_order_pagestatuse"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:emptyViewResId="@layout/view_pager_empty"
+            app:failedViewResId="@layout/view_pager_failed"
+            >
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="8dp"
+                    android:paddingBottom="8dp"
+                    android:background="@color/app_white"
+                    android:orientation="vertical"
+                    >
+                    <lecho.lib.hellocharts.view.PieChartView
+                        android:id="@+id/type_order_piechart"
+                        android:layout_width="match_parent"
+                        android:padding="8dp"
+                        android:layout_height="250dp" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="8dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        >
+
+                        <TableRow>
+
+                            <ccj.sz28yun.com.widget.EvaluateDesTextView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="餐餐抢订单"
+                                app:iconColor="@color/app_blue_light"
+                                />
+
+                            <ccj.sz28yun.com.widget.EvaluateDesTextView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="套餐订单"
+                                app:iconColor="@color/app_orange"
+                                />
+
+                            <ccj.sz28yun.com.widget.EvaluateDesTextView
+                                android:layout_width="match_parent"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:text="先消费后买单"
+                                app:iconColor="@color/app_green"
+                                />
+
+                        </TableRow>
+
+
+                    </TableLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="10dp"
+                    android:background="@color/app_blue_light"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/order_ccj_count_tv"
+                            style="@style/text_normal"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/app_white"
+                            android:textSize="@dimen/ui_36_px"
+                            android:text="0"
+                            />
+                        <TextView
+                            style="@style/text_caption_normal"
+                            android:textColor="@color/app_white"
+                            android:layout_marginTop="8dp"
+                            android:text="餐餐抢订单"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/order_tc_count_tv"
+                            style="@style/text_normal"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/app_white"
+                            android:textSize="@dimen/ui_36_px"
+                            android:text="0"
+                            />
+
+                        <TextView
+                            style="@style/text_caption_normal"
+                            android:text="套餐订单"
+                            android:textColor="@color/app_white"
+                            android:layout_marginTop="8dp"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        >
+
+
+                        <TextView
+                            android:id="@+id/order_consmue_count_tv"
+                            style="@style/text_normal"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/app_white"
+                            android:textSize="@dimen/ui_36_px"
+                            android:text="0"
+                            />
+
+                        <TextView
+                            style="@style/text_caption_normal"
+                            android:text="先消费后买单"
+                            android:textColor="@color/app_white"
+                            android:layout_marginTop="8dp"
+                            />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </per.sue.gear2.widget.PageStatusLayout>
+
+
+        <per.sue.gear2.widget.PageStatusLayout
+            android:id="@+id/type_marchant_pagestatuse"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            app:emptyViewResId="@layout/view_pager_empty"
+            app:failedViewResId="@layout/view_pager_failed"
+            >
+
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/type_marchant_linechart"
+            android:layout_width="match_parent"
+            android:background="@color/app_white"
+            android:padding="8dp"
+            android:layout_height="250dp" />
+        </per.sue.gear2.widget.PageStatusLayout>
+    </FrameLayout>
+
+</LinearLayout>

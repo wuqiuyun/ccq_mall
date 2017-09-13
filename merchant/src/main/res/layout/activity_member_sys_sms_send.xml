@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/app_vertical_margin"
+            android:layout_marginTop="@dimen/app_vertical_margin"
+            android:background="@color/app_white">
+
+            <LinearLayout
+                android:id="@+id/member_type_ll"
+                android:layout_height="50dp"
+                android:background="@drawable/gear_tab_bg"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin">
+
+                <TextView
+                    style="@style/text_normal"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:minWidth="100dp"
+                    android:text="目标会员"
+                    android:textSize="@dimen/ui_32_px" />
+
+                <TextView
+                    android:id="@+id/member_type_tv"
+                    style="@style/text_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@mipmap/ic_arrow_right"
+                    android:gravity="right|center_vertical"
+                    android:text="请选择目标会员"
+                    android:textColor="@color/app_text_gray_normal"
+                    android:textSize="@dimen/ui_32_px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/target_mobile_ll"
+                android:layout_height="50dp"
+                android:background="@drawable/gear_tab_bg"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin"
+                android:visibility="gone">
+
+                <TextView
+                    style="@style/text_normal"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:minWidth="100dp"
+                    android:text="指定目标: "
+                    android:textSize="@dimen/ui_32_px" />
+
+                <EditText
+                    android:id="@+id/target_mobile_et"
+                    style="@style/text_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:gravity="right|center_vertical"
+                    android:hint="请输入手机号码"
+                    android:inputType="phone"
+                    android:maxLength="11"
+                    android:textColor="@color/app_text_gray_normal"
+                    android:textSize="@dimen/ui_32_px" />
+
+            </LinearLayout>
+
+            <View style="@style/line_view_vertical" />
+
+            <TableRow
+                android:id="@+id/sms_signtrue_ll"
+                android:layout_height="50dp"
+                android:background="@drawable/gear_tab_bg"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin">
+
+                <TextView
+                    style="@style/text_normal"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:minWidth="100dp"
+                    android:text="短信签名"
+                    android:textSize="@dimen/ui_32_px" />
+
+                <TextView
+                    android:id="@+id/sms_signtrue_tv"
+                    style="@style/text_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:drawableRight="@mipmap/ic_arrow_right"
+                    android:gravity="right|center_vertical"
+                    android:text="请选择短信签名"
+                    android:textColor="@color/app_text_gray_normal"
+                    android:textSize="@dimen/ui_32_px" />
+            </TableRow>
+
+            <TextView
+                style="@style/text_body_normal"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin"
+                android:text="*签名必须在商家后台申请通过后才能使用,否则默认为28云-餐餐抢"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/ui_28_px" />
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginTop="8dp" />
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:text="短信内容"
+            android:textSize="@dimen/ui_32_px" />
+
+        <EditText
+            android:id="@+id/sms_content_et"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:layout_marginTop="8dp"
+            android:background="@color/app_white"
+            android:gravity="top"
+            android:hint="请输入短信内容"
+            android:padding="4dp"
+            android:textSize="@dimen/ui_30_px" />
+
+        <RadioGroup
+            android:id="@+id/send_type_rg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/send_type_now"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="即时发送"
+                android:textColor="@color/color_text_normal"
+                android:textSize="@dimen/ui_32_px"
+
+                />
+
+            <RadioButton
+                android:id="@+id/send_type_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="定时发送"
+                android:textColor="@color/color_text_normal"
+                android:textSize="@dimen/ui_32_px" />
+
+            <TextView
+                android:id="@+id/select_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:gravity="center"
+                android:text="选择时间"
+                android:textSize="@dimen/app_text_caption"
+                android:visibility="gone" />
+
+        </RadioGroup>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin">
+
+            <TableRow>
+
+                <TextView
+                    style="@style/text_normal"
+                    android:text="会员数量:  " />
+
+                <TextView
+                    android:id="@+id/member_count_tv"
+                    style="@style/text_normal"
+                    android:text="0名" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/text_normal"
+                    android:text="短信条数:  " />
+
+                <TextView
+                    android:id="@+id/sms_count_tv"
+                    style="@style/text_normal"
+                    android:text="0条" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    style="@style/text_normal"
+                    android:text="扣除短信费:  " />
+
+                <TextView
+                    android:id="@+id/payment_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="4dp"
+                    android:text="0元" />
+
+                <TextView
+                    android:id="@+id/yi_send_sms"
+                    style="@style/text_normal"
+                    android:background="@color/app_blue_light"
+                    android:text="已发送短信"
+                    android:textColor="@color/app_white"
+                    android:padding="1dp"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/submit_btn"
+            style="@style/btn_larger"
+            android:layout_height="45dp"
+            android:layout_margin="@dimen/app_horizontal_margin"
+            android:gravity="center"
+            android:text="提交审核" />
+
+    </LinearLayout>
+</ScrollView>

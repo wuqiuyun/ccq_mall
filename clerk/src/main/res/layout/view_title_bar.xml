@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/base_title_bar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/app_vertical_margin"
+    android:paddingBottom="@dimen/app_vertical_margin"
+    android:paddingLeft="@dimen/app_horizontal_margin"
+    android:paddingRight="@dimen/app_horizontal_margin"
+    >
+
+    <ImageView
+        android:id="@+id/bar_back_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_back"
+        android:layout_alignParentTop="true"
+        />
+    <TextView
+        android:id="@+id/bar_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="title"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/app_text_title"
+        />
+</RelativeLayout>
+
+    <View
+        style="@style/line_view_vertical"/>
+</LinearLayout>

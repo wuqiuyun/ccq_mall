@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utF-8"?>
+<resources>
+	<color name="charts_gray">#FF808080</color>
+	<color name="charts_white">#FFFFFFFF</color>
+	<color name="charts_blue">#FF0000FF</color>
+	<color name="charts_black">#FF000000</color>
+	<color name="charts_pink">#FFFFC0Cb</color>
+	<color name="charts_red">#FFd90e18</color>
+	<color name="charts_orange">#FFFF8D00</color>
+	<color name="charts_yellow">#FFFFFF00</color>
+	<color name="charts_green">#FF00FF00</color>
+	<color name="charts_lightyellow">#FFFFFFE0</color>
+	<color name="charts_lightblue">#FFE3EEFB</color>
+	<color name="charts_oceanblue">#FF5271A5</color>
+	<color name="charts_lightgreen">#FF96FF00</color>
+	<color name="charts_grassgreen">#FF009600</color>
+	<color name="charts_lightgray">#FFD3D3D3</color>
+	<color name="charts_darkgray">#00535252</color>
+</resources>

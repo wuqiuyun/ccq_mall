@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_custom_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\dialog_custom_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\pop_selectdate_wheel.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\pop_selectdate_wheel.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_text_centered.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\wheel_text_centered.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_view_horizontal.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\wheel_view_horizontal.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\popmenu_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_webview.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\fragment_webview.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\view_dialog_avatr.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\view_dialog_avatr.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_view_pager_failed.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_view_pager_failed.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_view_pager_loading.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_view_pager_loading.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_view_vertical.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\wheel_view_vertical.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_simple_list_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_simple_list_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\view_selectdate_wheel.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\view_selectdate_wheel.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\activity_edit.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\view_array_wheel.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\view_array_wheel.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_simple_list_item_checkable.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_simple_list_item_checkable.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\popmenu.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\popmenu.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\pop_proshort_wheel_spinner.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\pop_proshort_wheel_spinner.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\activity_base.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\view_test.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\view_test.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_view_pager_empty.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_view_pager_empty.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_select_list.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\fragment_select_list.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_head_layout_view.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_head_layout_view.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_head_menu_item.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_head_menu_item.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\listview_footer.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\listview_footer.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_text_centered_dark_back.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\wheel_text_centered_dark_back.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\wheel_text_centered_dark_back_match.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\wheel_text_centered_dark_back_match.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\capture.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\debug\\layout\\gear_view_pager_status.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\layout\\gear_view_pager_status.xml"
+    }
+]

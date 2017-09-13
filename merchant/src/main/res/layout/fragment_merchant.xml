@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_title_bar_height"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/bar_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin"
+                android:text="商家设置"
+                android:textColor="@color/app_white"
+                android:textSize="@dimen/app_text_title" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/settting_service_tv"
+                style="@style/item_setting_normal"
+                android:drawableLeft="@mipmap/ic_setting_service"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="服务设置" />
+
+            <View style="@style/line_view_vertical" />
+
+            <TextView
+                android:id="@+id/settting_merchant_home_tv"
+                style="@style/item_setting_normal"
+                android:drawableLeft="@mipmap/ic_setting_merchant_home"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="商家首页设置" />
+
+            <View style="@style/line_view_vertical" />
+
+            <TextView
+                android:id="@+id/settting_chain_tv"
+                style="@style/item_setting_normal"
+                android:drawableLeft="@mipmap/ic_setting_chain"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="连锁设置"
+                android:visibility="gone" />
+
+            <View style="@style/line_view_vertical" />
+
+            <TextView
+                android:id="@+id/settting_normal_tv"
+                style="@style/item_setting_normal"
+                android:drawableLeft="@mipmap/ic_setting_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="通用设置"
+                android:visibility="gone" />
+
+            <View style="@style/line_view_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_name_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="商家名字" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_address_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="商家地址" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_frmobile_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="法人电话" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_servicemobile_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="服务电话" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_contract_name_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="联系人" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_bank_name_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="开户银行" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_bank_account_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="银行账号" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_member_count_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="注册会员" />
+
+            <ccj.sz28yun.com.widget.ItemValueEditView
+                android:id="@+id/merchant_vip_count_ive"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                app:value_label="VIP会员" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/merchant_front_iv"
+                    android:layout_width="105dp"
+                    android:layout_height="70dp"
+                    android:scaleType="center"
+                    android:src="@drawable/gear_image_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="身份证正面"
+                    android:textColor="@color/app_grey"
+                    android:textSize="@dimen/ui_26_px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/merchant_back_iv"
+                    android:layout_width="105dp"
+                    android:layout_height="70dp"
+                    android:scaleType="center"
+                    android:src="@drawable/gear_image_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="身份证反面"
+                    android:textColor="@color/app_grey"
+                    android:textSize="@dimen/ui_26_px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/merchant_licence_iv"
+                    android:layout_width="180dp"
+                    android:layout_height="120dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gear_image_default" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="营业执照"
+                    android:textColor="@color/app_grey"
+                    android:textSize="@dimen/ui_28_px" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <TextView
+            android:id="@+id/settting_about_tv"
+            style="@style/item_setting_normal"
+            android:drawableRight="@mipmap/ic_arrow_right"
+            android:text="关于"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</ScrollView>

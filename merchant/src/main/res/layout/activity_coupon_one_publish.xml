@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:background="@color/activity_bg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="发布方式"
+            android:textSize="@dimen/ui_32_px"
+            />
+
+        <RadioGroup
+            android:id="@+id/publish_type_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:orientation="horizontal">
+
+            <View android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <RadioButton
+                android:id="@+id/publish_type_one_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="单品发布"
+                android:checked="true"
+                android:drawablePadding="8dp"
+                android:button="@drawable/selector_choice"
+                android:textSize="@dimen/ui_32_px"
+                />
+            <View android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+            <RadioButton
+                android:id="@+id/publish_type_batch_rb"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="批量发布"
+                android:layout_marginLeft="16dp"
+                android:drawablePadding="8dp"
+                android:button="@drawable/selector_choice"
+                android:textSize="@dimen/ui_32_px"
+                />
+            <View android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+</LinearLayout>

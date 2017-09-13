@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/performance_day_head"
+android:layout_width="match_parent"
+android:orientation="horizontal"
+android:background="@drawable/gear_tab_bg_white"
+android:layout_height="50dp">
+
+
+<TextView
+    style="@style/text_caption_normal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_weight="1"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:ellipsize="end"
+    android:text="用户"
+    />
+
+<TextView
+
+    style="@style/text_caption_normal"
+    android:layout_weight="0.8"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_vertical"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:text="订单号"
+    />
+
+<TextView
+
+    style="@style/text_caption_normal"
+    android:layout_weight="0.95"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_vertical"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:text="日期"
+    />
+
+
+<TextView
+    android:id="@+id/day_head_value_tv"
+    style="@style/text_caption_normal"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center_vertical"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:text="获取VIP"
+    />
+
+</LinearLayout>

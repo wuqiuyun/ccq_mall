@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_title_bar_height"
+        android:background="@color/app_white"
+        >
+
+        <ImageView
+            android:id="@+id/back_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:padding="13dp"
+            android:src="@mipmap/ic_arrow_left_cp"
+            android:scaleType="centerCrop"
+            />
+
+        <RadioGroup
+            android:id="@+id/type_rg"
+            android:layout_width="170dp"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_squ_r4_transparency_primary"
+            android:gravity="center"
+            >
+
+        <RadioButton
+            android:id="@+id/type_all_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:textSize="@dimen/ui_28_px"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_r4_left_tran_primary"
+            android:text="已回复"
+            />
+
+
+
+        <RadioButton
+            android:id="@+id/type_goods_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:textSize="@dimen/ui_28_px"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_r4_right_tran_primary"
+            android:text="未回复"
+            />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        />
+
+
+
+
+</LinearLayout>

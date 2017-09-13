@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:paddingLeft="@dimen/app_horizontal_margin"
+    android:paddingRight="@dimen/app_horizontal_margin"
+    android:paddingTop="@dimen/app_vertical_margin"
+    android:paddingBottom="@dimen/app_vertical_margin"
+    android:background="@color/app_white"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow>
+
+            <TextView style="@style/text_normal"
+                android:text="订单号："
+                />
+            <TextView
+                android:id="@+id/order_num_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="123456789"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView style="@style/text_normal"
+                android:text="用户名："
+                />
+            <TextView
+                android:id="@+id/user_name_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="123456789"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView style="@style/text_normal"
+                android:text="消费金额："
+                />
+            <TextView
+                android:id="@+id/consmue_pay_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/colorPrimary"
+                android:text="￥1000"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView style="@style/text_normal"
+                android:text="实付金额："
+                />
+            <TextView
+                android:id="@+id/percent_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/colorPrimary"
+                android:text="8.8折"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView style="@style/text_normal"
+                android:text="购买时间："
+                />
+            <TextView
+                android:id="@+id/time_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="2016-02-19"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView style="@style/text_normal"
+                android:text="商家地址："
+                />
+            <TextView
+                android:id="@+id/adress_tv"
+                style="@style/text_body_normal"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="XXXXXXXXXXXXXX"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        >
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/gear_image_default"
+
+            />
+        <TextView
+            android:id="@+id/verify_status_tv"
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+
+            android:text="验证"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

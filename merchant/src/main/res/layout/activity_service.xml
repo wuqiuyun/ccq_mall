@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:text="场地服务"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:gravity="center_vertical"
+        />
+
+    <View style="@style/line_view_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="是否提供儿童乐园"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_grey"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/is_child_paradise_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_ck_turn"
+
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="是否提供免费WIFI"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_grey"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/is_child_wifi_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_ck_turn"
+
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="是否提供吸烟区"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_grey"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/is_smoke_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_ck_turn"
+
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="是否提供发票"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_grey"
+            android:layout_weight="1"
+            />
+
+        <CheckBox
+            android:id="@+id/is_bill_ck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/selector_ck_turn"
+
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+
+    <View style="@style/line_view_vertical"
+        android:layout_marginTop="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="服务时段"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_grey"
+            />
+
+        <TextView
+            android:id="@+id/start_date_tv"
+            android:layout_width="83dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="48dp"
+            android:background="@drawable/shape_squ_white_gray"
+            android:gravity="center"
+            android:text="12:00"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:text="--"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            />
+
+        <TextView
+            android:id="@+id/end_date_tv"
+            android:layout_width="83dp"
+            android:layout_height="28dp"
+            android:background="@drawable/shape_squ_white_gray"
+            android:gravity="center"
+            android:text="12:00"
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+</LinearLayout>

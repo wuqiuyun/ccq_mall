@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<per.sue.gear2.widget.PageStatusLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/page_status_layout"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        >
+        <ListView
+            android:id="@+id/categoey_list_view_first"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:background="@color/colorPrimary"
+            android:divider="@color/app_white"
+            android:dividerHeight="1dp"
+            android:scrollbars="none"
+            android:drawSelectorOnTop="@bool/default_circle_indicator_snap"
+            android:layout_height="match_parent">
+        </ListView>
+
+
+
+        <ListView
+            android:id="@+id/categoey_list_view_second"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:scrollbars="none"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+
+
+</per.sue.gear2.widget.PageStatusLayout>

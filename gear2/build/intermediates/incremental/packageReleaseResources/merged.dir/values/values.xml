@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="abstractWheelViewStyle"/>
+    <attr format="boolean" name="centered"/>
+    <attr format="color" name="selectedColor"/>
+    <attr format="dimension" name="strokeWidth"/>
+    <attr format="color" name="unselectedColor"/>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <bool name="default_line_indicator_centered">true</bool>
+    <bool name="default_title_indicator_selected_bold">true</bool>
+    <bool name="default_underline_indicator_fades">true</bool>
+    <color name="activity_bg">#f2f2f2</color>
+    <color name="app_bg_color_b_80_p">#50000000</color>
+    <color name="app_blue">#379dbf</color>
+    <color name="app_blue_light">#007aff</color>
+    <color name="app_divider">#d9d9d9</color>
+    <color name="app_line_grey">#e5e5e5</color>
+    <color name="app_trans">#00000000</color>
+    <color name="app_white">#fefefe</color>
+    <color name="charts_black">#FF000000</color>
+    <color name="charts_blue">#FF0000FF</color>
+    <color name="charts_darkgray">#00535252</color>
+    <color name="charts_grassgreen">#FF009600</color>
+    <color name="charts_gray">#FF808080</color>
+    <color name="charts_green">#FF00FF00</color>
+    <color name="charts_lightblue">#FFE3EEFB</color>
+    <color name="charts_lightgray">#FFD3D3D3</color>
+    <color name="charts_lightgreen">#FF96FF00</color>
+    <color name="charts_lightyellow">#FFFFFFE0</color>
+    <color name="charts_oceanblue">#FF5271A5</color>
+    <color name="charts_orange">#FFFF8D00</color>
+    <color name="charts_pink">#FFFFC0Cb</color>
+    <color name="charts_red">#FFd90e18</color>
+    <color name="charts_white">#FFFFFFFF</color>
+    <color name="charts_yellow">#FFFFFF00</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorAccentDark">#9eab25</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0381c6</color>
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <color name="default_line_indicator_selected_color">#FF33B5E5</color>
+    <color name="default_line_indicator_unselected_color">#FFBBBBBB</color>
+    <color name="default_title_indicator_footer_color">#FF33B5E5</color>
+    <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
+    <color name="default_title_indicator_text_color">#BBFFFFFF</color>
+    <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
+    <color name="gear_black_1">#2e2e2e</color>
+    <color name="gear_black_2">#3d3d3d</color>
+    <color name="gear_black_3">#595959</color>
+    <color name="gear_black_4">#939393</color>
+    <color name="gear_blue">#34c2f5</color>
+    <color name="gear_blue_p">#37acd7</color>
+    <color name="gear_gray">#bfbfbf</color>
+    <color name="gear_gray_p">#b9b9b9</color>
+    <color name="gear_q_orange">#cfa972</color>
+    <color name="gear_white">#fefefe</color>
+    <color name="gear_white_p">#ececec</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="vpi__background_holo_dark">#ff000000</color>
+    <color name="vpi__background_holo_light">#fff3f3f3</color>
+    <color name="vpi__bright_foreground_disabled_holo_dark">#ff4c4c4c</color>
+    <color name="vpi__bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="vpi__bright_foreground_holo_dark">@color/vpi__background_holo_light</color>
+    <color name="vpi__bright_foreground_holo_light">@color/vpi__background_holo_dark</color>
+    <color name="vpi__bright_foreground_inverse_holo_dark">@color/vpi__bright_foreground_holo_light</color>
+    <color name="vpi__bright_foreground_inverse_holo_light">@color/vpi__bright_foreground_holo_dark</color>
+    <declare-styleable name="AVLoadingIndicatorView"><attr format="dimension" name="minWidth"/><attr format="dimension" name="maxWidth"/><attr format="dimension" name="minHeight"/><attr format="dimension" name="maxHeight"/><attr format="string" name="indicatorName"/><attr format="color" name="indicatorColor"/></declare-styleable>
+    <declare-styleable name="AbstractWheelView"><attr format="integer" name="visibleItems"/><attr format="boolean" name="isAllVisible"/><attr format="integer" name="itemOffsetPercent"/><attr format="dimension" name="itemsPadding"/><attr format="integer" name="selectionDividerDimmedAlpha"/><attr format="integer" name="selectionDividerActiveAlpha"/><attr format="reference" name="selectionDivider"/><attr format="integer" name="itemsDimmedAlpha"/><attr format="boolean" name="isCyclic"/></declare-styleable>
+    <declare-styleable name="CircleFlowIndicator"><attr format="color" name="activeColor"/><attr format="color" name="inactiveColor"/><attr format="dimension" name="radius2"/><attr format="boolean" name="centered2"/><attr format="integer" name="fadeOut"/><attr name="inactiveType">
+			<flag name="stroke" value="0"/>
+			<flag name="fill" value="1"/>
+		</attr><attr name="activeType">
+			<flag name="stroke" value="0"/>
+			<flag name="fill" value="1"/>
+		</attr><attr format="dimension" name="circleSeparation"/><attr format="dimension" name="activeRadius"/></declare-styleable>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="borderWidth"/><attr format="color" name="borderColor"/></declare-styleable>
+    <declare-styleable name="CirclePageIndicator"><attr name="centered"/><attr format="color" name="fillColor"/><attr format="color" name="pageColor"/><attr name="android:orientation"/><attr format="dimension" name="radius"/><attr format="boolean" name="snap"/><attr format="color" name="strokeColor"/><attr name="strokeWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="CustomTheme"><attr format="reference" name="gifViewStyle"/></declare-styleable>
+    <declare-styleable name="GearTabPageIndicator"><attr format="color" name="gearIndicatorColor"/><attr format="color" name="gearUnderlineColor"/><attr format="color" name="gearDividerColor"/><attr format="dimension" name="gearIndicatorHeight"/><attr format="dimension" name="gearUnderlineHeight"/><attr format="dimension" name="gearDividerPadding"/><attr format="dimension" name="gearTabPaddingLeftRight"/><attr format="dimension" name="gearScrollOffset"/><attr format="reference" name="gearTabBackground"/><attr format="boolean" name="gearShouldExpand"/><attr format="boolean" name="gearTextAllCaps"/><attr format="color" name="gearsTextSelectColor"/><attr format="color" name="gearTextDefultColor"/><attr format="boolean" name="gearTextSelectBold"/><attr format="dimension" name="gearTextSize"/></declare-styleable>
+    <declare-styleable name="GifView"><attr format="reference" name="gif"/><attr format="boolean" name="paused"/></declare-styleable>
+    <declare-styleable name="HeaderViewPager"><attr format="dimension" name="hvp_topOffset"/></declare-styleable>
+    <declare-styleable name="LinePageIndicator"><attr name="centered"/><attr name="unselectedColor"/><attr name="selectedColor"/><attr format="dimension" name="lineWidth"/><attr name="android:strokeWidth"/><attr format="dimension" name="gapWidth"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="PageStatusLayout"><attr format="reference" name="loadViewResId"/><attr format="reference" name="failedViewResId"/><attr format="reference" name="emptyViewResId"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPadding"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectColor"/><attr format="color" name="pstsTextDefultColor"/><attr format="boolean" name="pstsTextSelectBold"/><attr format="dimension" name="pstsTextSize"/></declare-styleable>
+    <declare-styleable name="RedDotImageView"><attr format="integer" name="src"/></declare-styleable>
+    <declare-styleable name="TitlePageIndicator"><attr format="dimension" name="clipPadding"/><attr format="color" name="footerColor"/><attr format="dimension" name="footerLineHeight"/><attr name="footerIndicatorStyle">
+            <enum name="none" value="0"/>
+            <enum name="triangle" value="1"/>
+            <enum name="underline" value="2"/>
+        </attr><attr format="dimension" name="footerIndicatorHeight"/><attr format="dimension" name="footerIndicatorUnderlinePadding"/><attr format="dimension" name="footerPadding"/><attr name="linePosition">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr><attr name="selectedColor"/><attr format="boolean" name="selectedBold"/><attr name="android:textColor"/><attr name="android:textSize"/><attr format="dimension" name="titlePadding"/><attr format="dimension" name="topPadding"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="UnderlinePageIndicator"><attr format="boolean" name="fades"/><attr format="integer" name="fadeDelay"/><attr format="integer" name="fadeLength"/><attr name="selectedColor"/><attr name="android:background"/></declare-styleable>
+    <declare-styleable name="ViewFlow"><attr format="integer" name="sidebuffer"/></declare-styleable>
+    <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
+    <declare-styleable name="WheelHorizontalView"><attr format="dimension" name="selectionDividerWidth"/></declare-styleable>
+    <declare-styleable name="WheelVerticalView"><attr format="dimension" name="selectionDividerHeight"/></declare-styleable>
+    <dimen name="app_horizontal_margin">16dp</dimen>
+    <dimen name="app_title_bar_height">48dp</dimen>
+    <dimen name="app_vertical_margin">10dp</dimen>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_line_indicator_gap_width">4dp</dimen>
+    <dimen name="default_line_indicator_line_width">12dp</dimen>
+    <dimen name="default_line_indicator_stroke_width">1dp</dimen>
+    <dimen name="default_title_indicator_clip_padding">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_height">4dp</dimen>
+    <dimen name="default_title_indicator_footer_indicator_underline_padding">20dp</dimen>
+    <dimen name="default_title_indicator_footer_line_height">2dp</dimen>
+    <dimen name="default_title_indicator_footer_padding">7dp</dimen>
+    <dimen name="default_title_indicator_text_size">15dp</dimen>
+    <dimen name="default_title_indicator_title_padding">5dp</dimen>
+    <dimen name="default_title_indicator_top_padding">7dp</dimen>
+    <dimen name="gear_text_body">14sp</dimen>
+    <dimen name="gear_text_caption">12sp</dimen>
+    <dimen name="gear_text_display">34dp</dimen>
+    <dimen name="gear_text_headline">24sp</dimen>
+    <dimen name="gear_text_subhead">16sp</dimen>
+    <dimen name="gear_text_title">20sp</dimen>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="gear_nav_table_image" type="id"/>
+    <item name="gear_nav_table_title" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <item name="tag_key_holder" type="id"/>
+    <item name="tag_key_text_color" type="id"/>
+    <item name="tag_key_type" type="id"/>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <string name="action_settings">Settings</string>
+    <string name="app_data_empty">抱歉, 暂无内容.</string>
+    <string name="app_data_failed">加载中...</string>
+    <string name="app_data_loading">加载中...</string>
+    <string name="app_name">Gear2</string>
+    <string name="app_no_new_update">没有发现新版本</string>
+    <string name="bollmaslipcandlestickchart">BOLLMASlipCandleStickChart</string>
+    <string name="candlestickchart">CandleStickChart</string>
+    <string name="coloredslipstickchart">ColoredSlipStickChart</string>
+    <string name="dialogNegativeButton">以后再说</string>
+    <string name="dialogPositiveButton">立即下载</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成，点击安装</string>
+    <string name="gridchart">GridChart</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="linechart">LineChart</string>
+    <string name="macandlestickchart">MACandleStickChart</string>
+    <string name="macdchart">MACDChart</string>
+    <string name="main_nav_label_brand">2</string>
+    <string name="main_nav_label_mine">4</string>
+    <string name="main_nav_label_notice">3</string>
+    <string name="main_nav_label_red_man">1</string>
+    <string name="maslipcandlestickchart">MASlipCandleStickChart</string>
+    <string name="maslipstickchart">MASlipStickChart</string>
+    <string name="mastickchart">MAStickChart</string>
+    <string name="minusstickchart">MinusStickChart</string>
+    <string name="newUpdateAvailable">发现新版本</string>
+    <string name="piechart">PieChart</string>
+    <string name="piechart_title1">Alpha</string>
+    <string name="piechart_title2">Bravo</string>
+    <string name="piechart_title3">Charlie</string>
+    <string name="piechart_title4">Delta</string>
+    <string name="piechart_title5">Echo</string>
+    <string name="radarchart">RadarChart</string>
+    <string name="radarchart_title1">Alpha</string>
+    <string name="radarchart_title2">Bravo</string>
+    <string name="radarchart_title3">Charlie</string>
+    <string name="radarchart_title4">Delta</string>
+    <string name="radarchart_title5">Echo</string>
+    <string name="rosechart">RoseChart</string>
+    <string name="rosechart_title1">Alpha</string>
+    <string name="rosechart_title2">Bravo</string>
+    <string name="rosechart_title3">Charlie</string>
+    <string name="rosechart_title4">Delta</string>
+    <string name="rosechart_title5">Echo</string>
+    <string name="rosechart_title6">Fox</string>
+    <string name="scan_text">将二维码置于取景框中即可自动扫描</string>
+    <string name="slipareachart">SlipAreaChart</string>
+    <string name="slipbandchart">SlipBandChart</string>
+    <string name="slipcandlestickchart">SlipCandleStickChart</string>
+    <string name="sliplinechart">SlipLineChart</string>
+    <string name="slipminusstickchart">SlipMinusStickChart</string>
+    <string name="slipstickchart">SlipStickChart</string>
+    <string name="spiderwebchart">SpiderWebChart</string>
+    <string name="spiderwebchart_title1">Alpha</string>
+    <string name="spiderwebchart_title2">Bravo</string>
+    <string name="spiderwebchart_title3">Charlie</string>
+    <string name="spiderwebchart_title4">Delta</string>
+    <string name="spiderwebchart_title5">Echo</string>
+    <string name="stickchart">StickChart</string>
+    <string name="title_activity_boll_ma_slip_candle_stick_chart">BOLL MA Slip Candle Stick Chart</string>
+    <string name="title_activity_candle_stick_chart">Candle Stick Chart</string>
+    <string name="title_activity_chart_list">Chart List</string>
+    <string name="title_activity_colored_slip_stick_chart">Colored Slip Stick Chart</string>
+    <string name="title_activity_donut_chart">Donut Chart</string>
+    <string name="title_activity_grid_chart">Grid Chart</string>
+    <string name="title_activity_line_chart">Line Chart</string>
+    <string name="title_activity_ma_candle_stick_chart">MA Candle Stick Chart</string>
+    <string name="title_activity_ma_slip_candle_stick_chart">MA Slip Candle Stick Chart</string>
+    <string name="title_activity_ma_slip_stick_chart">MA Slip Stick Chart</string>
+    <string name="title_activity_ma_stick_chart">MA Stick Chart</string>
+    <string name="title_activity_macd_chart">MACD Chart</string>
+    <string name="title_activity_minus_stick_chart">Minus Stick Chart</string>
+    <string name="title_activity_pie_chart">Pie Chart</string>
+    <string name="title_activity_radar_chart">Radar Chart</string>
+    <string name="title_activity_rose_chart">Rose Chart</string>
+    <string name="title_activity_slip_area_chart">Slip Area Chart</string>
+    <string name="title_activity_slip_band_area_chart">Slip Band Area Chart</string>
+    <string name="title_activity_slip_band_chart">Slip Band Chart</string>
+    <string name="title_activity_slip_candle_stick_chart">Slip Candle Stick Chart</string>
+    <string name="title_activity_slip_line_chart">Slip Line Chart</string>
+    <string name="title_activity_slip_minus_stick_chart">Slip Minus Stick Chart</string>
+    <string name="title_activity_slip_stick_chart">Slip Stick Chart</string>
+    <string name="title_activity_spider_web_chart">Spider Web Chart</string>
+    <string name="title_activity_stick_chart">Stick Chart</string>
+    <style name="AVLoadingIndicatorView">
+        <item name="minWidth">48dip</item>
+        <item name="maxWidth">48dip</item>
+        <item name="minHeight">48dip</item>
+        <item name="maxHeight">48dip</item>
+        <item name="indicatorName">LineScaleIndicator</item>
+    </style>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/gear_push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/gear_push_bottom_out</item>
+    </style>
+    <style name="CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item><!--  去除黑色边框的关键设置项 -->
+    </style>
+    <style name="SjzhDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item><!--  去除黑色边框的关键设置项 -->
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="TextAppearance.TabPageIndicator" parent="Widget">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/vpi__dark_theme</item>
+    </style>
+    <style name="Theme.PageIndicatorDefaults" parent="android:Theme">
+        <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    </style>
+    <style name="Widget">
+    </style>
+    <style name="Widget.IconPageIndicator" parent="Widget">
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_marginRight">6dp</item>
+    </style>
+    <style name="Widget.TabPageIndicator" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/vpi__tab_indicator</item>
+        <item name="android:paddingLeft">22dip</item>
+        <item name="android:paddingRight">22dip</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.TabPageIndicator</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="gear_setting_item">
+        <item name="android:background">@drawable/gear_tab_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+    <style name="gear_simple_list_view">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:divider">@color/app_divider</item>
+        <item name="android:listSelector">@drawable/gear_tab_bg</item>
+    </style>
+    <style name="line_view_horizontal">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="line_view_vertical">
+        <item name="android:background">@color/app_divider</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+</resources>

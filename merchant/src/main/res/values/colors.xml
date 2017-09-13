@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryLight">#fd5f62</color>
+    <color name="colorPrimary">#e4393c</color><!--主色调-->
+    <color name="colorPrimaryDark">#ce0725</color>
+    <color name="colorAccentLight">#f2faaa</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorAccentDark">#c7d72f</color>
+
+    <color name="colorListRow">#c7f9f6</color>
+
+    <color name="app_blue">#379dbf</color>
+    <color name="app_blue_light">#007aff</color>
+
+    <color name="app_yellow">#c1b951</color>
+    <color name="app_orange">#fa4f27</color>
+    <color name="app_orange_p">#da2a01</color>
+    <color name="app_white">#fff</color>
+    <color name="app_white_p">#eeeeee</color>
+    <color name="app_grey">#c4c6c9</color>
+    <color name="app_grey_p">#b1b4b7</color>
+
+    <color name="app_green">#19b919</color>
+
+    <color name="activity_bg">#f2f2f2</color> <!--界面默认背景色-->
+    <color name="app_divider">#dcdcdc</color><!--间隔线颜色-->
+    <color name="app_text_black_normal">#242424</color>
+    <color name="app_text_gray_normal">#848484</color>
+    <color name="app_text_gray_hint">#999999</color>
+    <color name="app_text_orange_status">#fdd6aa</color>
+
+    <color name="splash_count_bg">#aa3d3d3d</color>
+
+
+</resources>

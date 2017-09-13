@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        >
+        
+        <ImageView
+            android:id="@+id/image_iv"
+            android:layout_width="84dp"
+            android:layout_height="90dp"
+            android:src="@drawable/gear_image_default3"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/merchant_name_tv"
+            style="@style/text_normal"
+            android:text="商家名称"
+            android:layout_toRightOf="@+id/image_iv"
+            android:layout_marginLeft="8dp"
+            android:textSize="@dimen/ui_30_px"
+            android:layout_toLeftOf="@+id/merchant_status_tv"
+            android:ellipsize="end"
+            />
+
+
+        <TextView
+            android:id="@+id/merchant_count_ccj_tv"
+            style="@style/text_caption_normal"
+            android:text="餐餐券上传: 200"
+            android:layout_below="@+id/merchant_member_num_tv"
+            android:layout_alignLeft="@+id/merchant_name_tv"
+            android:layout_marginTop="4dp"
+            android:textSize="@dimen/ui_28_px"
+            />
+        <TextView
+            android:id="@+id/merchant_count_verify_tv"
+            style="@style/text_caption_normal"
+            android:text="已验证: 10"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/merchant_count_ccj_tv"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_alignLeft="@+id/merchant_name_tv"
+            android:textSize="@dimen/ui_28_px"
+            />
+        <TextView
+            android:id="@+id/merchant_member_num_tv"
+            style="@style/text_caption_normal"
+            android:text="注册会员: 300名"
+            android:textSize="@dimen/ui_28_px"
+            android:layout_marginTop="8dp"
+
+            android:layout_below="@+id/merchant_name_tv"
+            android:layout_alignLeft="@+id/merchant_name_tv"
+
+            />
+
+        <TextView
+            android:id="@+id/merchant_member_vip_num_tv"
+            style="@style/text_caption_normal"
+            android:text="VIP会员: 300名"
+            android:textSize="@dimen/ui_28_px"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/merchant_name_tv"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

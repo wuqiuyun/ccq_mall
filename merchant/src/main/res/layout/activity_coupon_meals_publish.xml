@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <View
+            style="@style/line_view_vertical"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/coupon_name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_white"
+            android:gravity="top"
+            android:hint="请输入套餐名字"
+            android:minHeight="62dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:paddingTop="8dp" />
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            style="@style/item_normal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/app_white"
+            android:minHeight="100dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:text="套餐图片"
+                android:textSize="@dimen/ui_32_px" />
+
+            <per.sue.gear2.widget.NoScrollGridView
+                android:id="@+id/pic_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:horizontalSpacing="4dp"
+                android:numColumns="3"
+                android:verticalSpacing="4dp" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <CheckBox
+            android:id="@+id/is_recommend_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/selector_ck_tick"
+            android:drawablePadding="8dp"
+            android:text="推荐商品" />
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            android:id="@+id/coupon_details_ll"
+            style="@style/item_setting_normal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="套餐详情"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/coupon_details_tv"
+                style="@style/item_setting_normal"
+                android:layout_width="wrap_content"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="100dp"
+                android:text="门店销售价"
+                android:textColor="@color/app_text_black_normal" />
+
+            <EditText
+                android:id="@+id/price_store_et"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/shape_squ_white_gray"
+                android:inputType="numberDecimal"
+                android:paddingLeft="4dp" />
+
+
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="100dp"
+                android:text="餐餐抢价"
+                android:textColor="@color/app_text_black_normal" />
+
+            <EditText
+                android:id="@+id/price_ccj_et"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/shape_squ_white_gray"
+                android:inputType="numberDecimal"
+                android:paddingLeft="4dp" />
+
+
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <TextView
+            android:id="@+id/price_discount_tv"
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="用户折扣:   0折"
+            android:textColor="@color/app_text_black_normal" />
+
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="(*餐餐抢销售价/门店销售价*10，小数点取两位)"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/ui_28_px" />
+
+        <View
+            style="@style/line_view_vertical"
+            android:layout_marginTop="8dp" />
+
+        <RadioGroup
+
+            android:id="@+id/person_num_rg"
+            style="@style/item_setting_normal"
+            android:orientation="horizontal"
+
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="100dp"
+                android:text="用餐人数"
+                android:textColor="@color/app_text_black_normal" />
+
+            <RadioButton
+                android:id="@+id/person_num_one_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector_choice"
+                android:checked="true"
+                android:text="单人餐"
+                android:textSize="@dimen/ui_28_px" />
+
+            <RadioButton
+                android:id="@+id/person_num_two_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:button="@drawable/selector_choice"
+                android:text="双人餐"
+                android:textSize="@dimen/ui_28_px" />
+
+            <RadioButton
+                android:id="@+id/person_num_more_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:button="@drawable/selector_choice"
+                android:text="多人餐"
+                android:textSize="@dimen/ui_28_px" />
+        </RadioGroup>
+
+        <View style="@style/line_view_vertical" />
+
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="可用分店"
+            android:textColor="@color/app_text_black_normal"
+            android:visibility="gone" />
+
+        <per.sue.gear2.widget.NoScrollGridView
+            android:id="@+id/chains_grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:numColumns="2"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:visibility="gone"></per.sue.gear2.widget.NoScrollGridView>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="100dp"
+                android:text="提供时间段"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/supply_start_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_squ_white_gray"
+                android:gravity="center" />
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_margin="8dp"
+                android:text="--"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/supply_end_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_squ_white_gray"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="100dp"
+                android:text="套餐有效期"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/effect_start_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_squ_white_gray"
+                android:gravity="center" />
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_margin="8dp"
+                android:text="--"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/effect_end_time_tv"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:background="@drawable/shape_squ_white_gray"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+
+        <View
+            style="@style/line_view_vertical"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:id="@+id/favorable_ll"
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="同时享有优惠"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/favorable_tv"
+                style="@style/text_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="无"
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            android:id="@+id/sex_limit_ll"
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="是否限制性别"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/sex_limit_tv"
+                style="@style/text_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="不要求"
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+
+        <LinearLayout
+            android:id="@+id/certificate_ll"
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="需要带证件"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/certificate_tv"
+                style="@style/text_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="不要求"
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+        <LinearLayout
+            android:id="@+id/sf_yuyue_ll"
+            style="@style/item_setting_normal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:text="是否需要预约"
+                android:textColor="@color/app_text_black_normal" />
+
+            <TextView
+                android:id="@+id/sf_yuyue_tv"
+                style="@style/text_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="不要求"
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical" />
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:layout_height="40dp"
+            android:background="@color/activity_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="120dp"
+                android:text="发售折扣券数量"
+                android:textColor="@color/app_text_black_normal" />
+
+            <EditText
+                android:id="@+id/coupon_count_limit_et"
+                style="@style/text_normal"
+                android:layout_height="32dp"
+                android:background="@null"
+                android:hint="默认空则不限制折扣券数量"
+                android:inputType="number"
+                android:text=""
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/item_setting_normal"
+            android:layout_height="40dp"
+            android:background="@color/activity_bg"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_width="120dp"
+                android:text="默认销售数量"
+                android:textColor="@color/app_text_black_normal" />
+
+            <EditText
+                android:id="@+id/coupon_count_defult_et"
+                style="@style/text_normal"
+                android:layout_height="32dp"
+                android:background="@null"
+                android:hint="如未填写默认销量为100"
+                android:inputType="number"
+                android:text=""
+                android:textColor="@color/app_text_black_normal" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:gravity="center_vertical"
+            android:text="套餐描述"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/describe_et"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:background="@color/app_white"
+            android:gravity="top"
+            android:padding="4dp" />
+
+
+        <TextView
+            android:id="@+id/submit_btn"
+            style="@style/btn_larger"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/gear_selector_squ_primary"
+            android:gravity="center"
+            android:text="提交审核" />
+
+
+    </LinearLayout>
+
+</ScrollView>

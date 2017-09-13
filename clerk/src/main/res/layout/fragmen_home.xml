@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/business_title_bar_ll"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/title_label_achievement_my"
+            android:textColor="@color/app_white"
+            android:textSize="@dimen/app_text_subhead"
+
+            />
+
+        <TextView
+            android:id="@+id/business_merchant_add_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gear_tab_bg"
+            android:gravity="center"
+            android:text="新增商家"
+            android:textColor="@color/app_white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <per.sue.gear2.widget.PageStatusLayout
+        android:id="@+id/page_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <requestFocus />
+
+        <ListView
+            android:id="@+id/home_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/app_divider"
+            android:dividerHeight="1px"
+            android:scrollbars="none"></ListView>
+
+
+    </per.sue.gear2.widget.PageStatusLayout>
+</LinearLayout>

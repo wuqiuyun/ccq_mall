@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<antistatic.spinnerwheel.WheelVerticalView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wheel_startdate_minute"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    app:selectionDivider="@drawable/wheel_blue_line"
+    app:selectionDividerActiveAlpha="255"
+    app:selectionDividerDimmedAlpha="255"
+    app:selectionDividerHeight="2.0dip"
+    app:visibleItems="4" />

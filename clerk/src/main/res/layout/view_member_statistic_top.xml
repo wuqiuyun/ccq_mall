@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:background="@color/app_white"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:id="@+id/statistic_count_member_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:gravity="center"
+            android:background="@drawable/gear_tab_bg"
+            android:layout_weight="1"
+            >
+
+
+            <TextView
+                android:id="@+id/statistic_count_member_tv"
+                style="@style/text_body_normal"
+                android:textSize="@dimen/app_text_title"
+                android:textColor="@color/colorPrimary"
+                android:text="0名"
+                />
+
+            <TextView
+                style="@style/text_normal"
+                android:text="注册会员"
+                android:textSize="@dimen/ui_28_px"
+                android:layout_marginTop="4dp"
+                />
+
+        </LinearLayout>
+
+        <View style="@style/line_view_horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/statistic_count_vip_ll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/gear_tab_bg"
+            android:layout_weight="1"
+            >
+
+
+            <TextView
+                android:id="@+id/statistic_count_vip_tv"
+                style="@style/text_caption_normal"
+                android:text="0名"
+                android:textSize="@dimen/app_text_title"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                style="@style/text_normal"
+                android:text="VIP会员"
+                android:textSize="@dimen/ui_28_px"
+                android:layout_marginTop="4dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/key_word_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingLeft="16dp"
+            android:hint="请输入会员账号查询该会员推荐数"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:imeOptions="actionSearch"
+            android:drawableLeft="@mipmap/ic_search_gray"
+            android:lines="1"
+            android:background="@mipmap/bg_search"
+            android:singleLine="true"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@color/app_white"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:text="下级会员名称"
+            android:textSize="@dimen/ui_28_px"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="注册人数"
+            android:gravity="center"
+            android:textSize="@dimen/ui_28_px"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="普通会员"
+            android:gravity="center"
+            android:textSize="@dimen/ui_28_px"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="VIP会员"
+            android:gravity="center"
+            android:textSize="@dimen/ui_28_px"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

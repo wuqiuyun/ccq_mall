@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<per.sue.gear2.widget.PageStatusLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/page_status_layout"
+    android:background="@color/activity_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/merchant_categoey_list_view_first"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+        android:drawSelectorOnTop="@bool/default_circle_indicator_snap"
+        android:layout_height="match_parent">
+    </ListView>
+
+
+
+    <ListView
+        android:id="@+id/merchant_categoey_list_view_second"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
+</per.sue.gear2.widget.PageStatusLayout>

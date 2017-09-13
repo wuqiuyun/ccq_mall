@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/year_tv"
+            style="@style/text_caption_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gear_tab_bg_white"
+            android:padding="8dp"
+            android:layout_marginLeft="8dp"
+            android:drawableRight="@mipmap/ic_triangle_gray"
+            android:gravity="center"
+            android:text="2016年"
+            />
+
+
+        <TextView
+            android:id="@+id/month_tv"
+            style="@style/text_caption_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gear_tab_bg_white"
+            android:padding="8dp"
+            android:layout_marginLeft="8dp"
+            android:drawableRight="@mipmap/ic_triangle_gray"
+            android:gravity="center"
+            android:text="12月"
+            />
+
+
+        <TextView
+            android:id="@+id/status_tv"
+            style="@style/text_caption_normal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gear_tab_bg_white"
+            android:padding="8dp"
+            android:visibility="gone"
+            android:drawableRight="@mipmap/ic_triangle_gray"
+            android:gravity="center"
+            android:text="全部"
+            />
+
+
+        <TextView
+            android:id="@+id/total_tv"
+            style="@style/text_caption_normal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:gravity="center|right"
+            android:text="合计:0.00元"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gear_gray"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="center"
+            android:textColor="@color/app_white"
+            android:text="日期"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:textColor="@color/app_white"
+            android:text="结算余额"
+            />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/activity_bg"
+        android:dividerHeight="8dp"
+
+        >
+
+    </ListView>
+
+
+</LinearLayout>

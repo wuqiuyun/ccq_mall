@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:textSize="@dimen/ui_30_px"
+        android:text="先消费后买单功能说明方案: \n商城卖100元\n实际销售: 100*80%=80元"
+        />
+
+    <View style="@style/line_view_vertical"
+        android:layout_marginTop="8dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="先消费后买单设置"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/ui_30_px"
+                android:layout_weight="1"
+                />
+
+            <CheckBox
+                android:id="@+id/consume_ck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/selector_ck_turn"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <EditText
+
+            android:id="@+id/percent_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="80dp"
+            android:hint="默认80%"
+            android:textSize="@dimen/ui_28_px"
+            android:inputType="number"
+            android:maxEms="2"
+            android:text="80"
+            />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="%"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/line_view_vertical"/>
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/submit_btn"
+        style="@style/btn_larger"
+        android:text="保存并返回"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gear_selector_squ_primary"
+
+        />
+
+
+</RelativeLayout>

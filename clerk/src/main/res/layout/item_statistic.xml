@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/app_white"
+    >
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.8"
+        android:text="下级会员名称"
+        android:textSize="@dimen/ui_26_px"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/count_regist_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="注册人数"
+        android:textSize="@dimen/ui_26_px"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/count_member_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="普通会员"
+        android:textSize="@dimen/ui_26_px"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/count_vip_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="VIP会员"
+        android:textSize="@dimen/ui_26_px"
+        android:gravity="center"
+
+        />
+
+
+</LinearLayout>

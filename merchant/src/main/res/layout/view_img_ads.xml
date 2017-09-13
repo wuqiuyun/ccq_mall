@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/edit_img_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_edit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        />
+
+    <FrameLayout
+        android:id="@+id/adv_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <per.sue.gear2.widget.flow.ViewFlowFixViewPager
+            android:id="@+id/view_flow"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"/>
+
+        <per.sue.gear2.widget.flow.CircleFlowIndicator
+            android:id="@+id/circle_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            app:radius2="3dp"
+            app:activeColor="@color/app_white"
+            app:inactiveColor="#dddddd"
+            />
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

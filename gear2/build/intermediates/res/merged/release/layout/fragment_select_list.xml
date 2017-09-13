@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@color/gear_white"
+    >
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="输入关键字"
+        android:visibility="gone"
+        />
+
+    <per.sue.gear2.widget.PageStatusLayout
+        android:id="@+id/pager_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@+id/gear_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/gear_select_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:scrollbars="none"
+        >
+    </ListView>
+
+    </com.cjj.MaterialRefreshLayout>
+    </per.sue.gear2.widget.PageStatusLayout>
+
+    <Button
+        android:id="@+id/gear_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone"
+        android:text="添加"
+        />
+
+</LinearLayout>

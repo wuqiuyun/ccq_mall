@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/app_white"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/order_count_tv"
+                style="@style/text_normal"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/ui_36_px"
+                android:text="0"
+                />
+            <TextView
+                style="@style/text_caption_normal"
+                android:textSize="@dimen/ui_32_px"
+                android:text="订单个数"
+                />
+        </LinearLayout>
+        <View
+            style="@style/line_view_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+
+            <TextView
+                android:id="@+id/total_tv"
+                style="@style/text_normal"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="@dimen/ui_36_px"
+                android:text="0"
+                />
+
+            <TextView
+                style="@style/text_caption_normal"
+                android:text="总金额"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+        </LinearLayout>
+        </LinearLayout>
+    <View
+        style="@style/line_view_vertical"
+        />
+
+    <RadioGroup
+        android:id="@+id/type_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        >
+
+        <RadioButton
+            android:id="@+id/order_ccj"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="31dp"
+            android:text="餐餐抢订单"
+            android:gravity="center"
+            android:textSize="@dimen/ui_30_px"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/color_text_normal_white"
+            android:background="@drawable/gear_selector_squ_r4_white_primary"
+            android:checked="true"
+            android:button="@null"
+            />
+        <RadioButton
+            android:id="@+id/order_consmue"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="31dp"
+            android:text="先消费后买单"
+            android:textSize="@dimen/ui_30_px"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="@color/color_text_normal_white"
+            android:background="@drawable/gear_selector_squ_r4_white_primary"
+            android:gravity="center"
+            android:button="@null"
+            />
+
+        <RadioButton
+            android:id="@+id/order_data"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="31dp"
+            android:text="按日期筛选"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/color_text_normal_white"
+            android:background="@drawable/gear_selector_squ_r4_white_primary"
+            android:gravity="center"
+            android:button="@null"
+            />
+    </RadioGroup>
+
+   <FrameLayout
+       android:id="@+id/content_fl"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/activity_bg"></FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,270 @@
+[
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_sem_b_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_sem_b_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_r4_right_tran_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_r4_right_tran_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\shape_squ_r4_blue.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\shape_squ_r4_blue.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\wheel_blue_line.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\wheel_blue_line.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_sem_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_sem_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_r4_left_tran_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_r4_left_tran_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_white.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_white.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_tab_bg.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_gray_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_gray_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_primary_p.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_primary_p.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_r4_white_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_r4_white_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_s_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_s_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\wheel_bg.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\wheel_bg.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r8_b_primary_transparents.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r8_b_primary_transparents.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_color_cursor.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_color_cursor.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_white_p.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_white_p.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_white.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_white.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_drawable_progress_bar.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_drawable_progress_bar.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_tran_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_tran_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\shape_squ_r4_transparency_blue.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\shape_squ_r4_transparency_blue.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_sem_b_primary_white.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_sem_b_primary_white.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\selector_tick_blue.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\selector_tick_blue.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\vpi__tab_indicator.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_tab_bg_white.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_tab_bg_white.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\selector_app_radio.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\selector_app_radio.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_primary_p.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_primary_p.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\selector_squ_r4_b_transparency_blue.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\selector_squ_r4_b_transparency_blue.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\selector_primary_white.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\selector_primary_white.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_left_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_left_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_selector_squ_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_selector_squ_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_right_primary.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_right_primary.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_r4_gray_p.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_r4_gray_p.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\gear_shape_squ_gray_p.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\gear_shape_squ_gray_p.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\shape_squ_r4_gray.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\src\\main\\res\\drawable\\shape_squ_r4_gray.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\28yun\\qqc\\android\\ccj\\gear2\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    }
+]

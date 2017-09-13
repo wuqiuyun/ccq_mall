@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:padding="15dp"
+    android:background="@drawable/gear_tab_bg_white"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:ellipsize="end"
+        android:textSize="15sp"
+        android:text="待提交商家"
+        />
+
+    <TextView
+        android:id="@+id/status_tv"
+        style="@style/text_normal"
+        android:layout_gravity="center_vertical"
+        android:text="未审核"
+        android:textSize="15sp"
+        android:textColor="@color/app_text_orange_status"
+        android:drawablePadding="10dp"
+        />
+
+</LinearLayout>

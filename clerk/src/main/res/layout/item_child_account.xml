@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/app_horizontal_margin"
+    android:paddingRight="@dimen/app_horizontal_margin"
+    android:background="@color/app_white"
+    android:layout_height="50dp">
+
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:ellipsize="end"
+        android:text="name"
+        />
+
+    <TextView
+        android:id="@+id/edit_tv"
+        style="@style/text_normal"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minWidth="48dp"
+        android:text="编辑"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/gear_tab_bg"
+        android:layout_marginRight="16dp"
+        android:drawablePadding="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/search_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:minWidth="48dp"
+        android:padding="2dp"
+        android:layout_gravity="center_vertical"
+        android:src="@mipmap/ic_search_gray"
+        android:background="@drawable/gear_tab_bg"
+        android:scaleType="center"
+        />
+
+</LinearLayout>

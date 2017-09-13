@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white"
+    >
+
+    <TextView
+        android:id="@+id/value_label_tv"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/ui_30_px"
+        android:gravity="center"
+        android:text="商家名字"
+        android:background="@color/activity_bg"
+        android:textColor="@color/app_grey_p"
+        />
+
+    <TextView
+        android:id="@+id/value_name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/value_label_tv"
+        android:layout_toLeftOf="@+id/value_opt_tv"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/ui_30_px"
+        android:gravity="center"
+        android:background="@color/app_white"
+        android:text=""
+
+        android:textColor="@color/app_grey_p"
+        />
+
+    <EditText
+        android:id="@+id/value_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/value_label_tv"
+        android:layout_toLeftOf="@+id/value_opt_tv"
+        android:layout_marginLeft="10dp"
+        android:textSize="@dimen/ui_30_px"
+        android:visibility="gone"
+        android:paddingLeft="8dp"
+        android:background="@drawable/shape_squ_white_gray"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp"
+        android:hint=""
+        android:textColor="@color/app_grey_p"
+        />
+    <TextView
+        android:id="@+id/value_opt_tv"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/ui_30_px"
+        android:gravity="center"
+        android:text="修改"
+        android:background="@color/app_white"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

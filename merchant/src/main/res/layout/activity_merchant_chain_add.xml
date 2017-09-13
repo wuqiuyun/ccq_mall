@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/app_white"
+        >
+
+        <View style="@style/line_view_vertical"/>
+
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="店名"
+                />
+
+            <EditText
+                android:id="@+id/merchant_name_et"
+                style="@style/edit_normal"
+                android:hint="请输入店名"
+                android:layout_weight="1"
+                android:layout_height="32dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="地址"
+                />
+
+            <EditText
+                android:id="@+id/merchant_address_et"
+                style="@style/edit_normal"
+                android:hint="请输入地址"
+                android:layout_weight="1"
+                android:layout_height="32dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="服务电话"
+                />
+
+            <EditText
+                android:id="@+id/merchant_service_mobile_et"
+                style="@style/edit_normal"
+                android:hint="请输入服务电话"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="店长账号"
+                />
+
+            <EditText
+                android:id="@+id/merchant_manager_name_et"
+                style="@style/edit_normal"
+                android:hint="请输入店长账号"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="店长电话"
+                />
+
+            <EditText
+                android:id="@+id/merchant_manager_mobile_et"
+                style="@style/edit_normal"
+                android:hint="请输入店长电话"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:textSize="@dimen/ui_32_px"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="店长密码"
+                />
+
+            <EditText
+                android:id="@+id/merchant_manager_password_et"
+                style="@style/edit_normal"
+                android:hint="请输入店长密码"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/submit_btn"
+        style="@style/btn_larger"
+        android:text="保存"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+
+
+
+    <per.sue.gear2.widget.PageStatusLayout
+        android:id="@+id/statistic_page_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.cjj.MaterialRefreshLayout
+            android:id="@+id/statistic_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/statistic_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:divider="@null"
+                />
+
+        </com.cjj.MaterialRefreshLayout>
+    </per.sue.gear2.widget.PageStatusLayout>
+
+</LinearLayout>

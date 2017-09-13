@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:orientation="vertical"
+        android:background="@mipmap/bg_finance_type_top"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/app_title_bar_height"
+            >
+
+            <ImageView
+                android:id="@+id/title_back_iv"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_arrow_left_white"
+                android:background="@drawable/gear_tab_bg"
+                android:scaleType="center"
+                />
+
+
+            <TextView
+                android:id="@+id/bar_title_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商家后台"
+                android:paddingLeft="@dimen/app_horizontal_margin"
+                android:paddingRight="@dimen/app_horizontal_margin"
+                android:textColor="@color/app_white"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/app_text_title"
+                />
+
+
+        </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/funds_total_tv"
+            style="@style/text_normal"
+            android:textColor="@color/app_white"
+            android:textSize="20sp"
+            android:text="0.00元"
+
+            />
+
+
+        <TextView
+            android:id="@+id/funds_label_name_tv"
+            style="@style/text_normal"
+            android:text="总共"
+            android:layout_marginTop="16dp"
+            android:textSize="@dimen/ui_32_px"
+            android:textColor="@color/app_white"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@mipmap/bg_finance_type_hyfd"
+        >
+        <ccj.sz28yun.com.widget.SelectableLinearLayout
+            android:id="@+id/funds_balance_ll"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@drawable/gear_tab_bg"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="可用资金余额"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/funds_balance_tv"
+                style="@style/text_normal"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorPrimary"
+                android:text="0.00元"
+                />
+        </ccj.sz28yun.com.widget.SelectableLinearLayout>
+
+        <View style="@style/line_view_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <ccj.sz28yun.com.widget.SelectableLinearLayout
+            android:id="@+id/funds_deposits_ll"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@drawable/gear_tab_bg"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="已提现金额"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/funds_deposits_tv"
+                style="@style/text_normal"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorPrimary"
+                android:text="0.00元"
+                />
+        </ccj.sz28yun.com.widget.SelectableLinearLayout>
+
+        <View style="@style/line_view_horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            />
+
+        <ccj.sz28yun.com.widget.SelectableLinearLayout
+            android:id="@+id/funds_freeze_ll"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@drawable/gear_tab_bg"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="已冻结金额"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <TextView
+                android:id="@+id/funds_freeze_tv"
+                style="@style/text_normal"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorPrimary"
+                android:text="0.00元"
+                />
+        </ccj.sz28yun.com.widget.SelectableLinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+
+
+
+
+
+</LinearLayout>

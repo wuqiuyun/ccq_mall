@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="@string/title_label_performance_my"
+            android:textColor="@color/app_white"
+            android:textSize="@dimen/app_text_subhead"
+            />
+
+        <TextView
+            android:id="@+id/performance_merchant_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/gear_tab_bg"
+            android:gravity="center"
+            android:text="商家业绩"
+            android:textColor="@color/app_white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <!--<per.sue.gear2.widget.header.HeaderViewPager-->
+    <!--android:id="@+id/performance_header_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <RadioGroup
+            android:id="@+id/performance_rg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/performance_day_rb"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_squ_r4_b_transparency_primary"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="当天"
+                android:textColor="@color/color_text_primary_white" />
+
+            <RadioButton
+                android:id="@+id/performance_month_rb"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_squ_r4_b_transparency_primary"
+                android:button="@null"
+                android:gravity="center"
+                android:text="本月"
+                android:textColor="@color/color_text_primary_white" />
+
+            <RadioButton
+                android:id="@+id/performance_month_onther_rb"
+                android:layout_width="100dp"
+                android:layout_height="34dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_squ_r4_b_transparency_primary"
+                android:button="@null"
+                android:gravity="center"
+                android:text="其他月份"
+                android:textColor="@color/color_text_primary_white" />
+        </RadioGroup>
+
+        <View style="@style/line_view_vertical" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_white">
+
+            <TableRow>
+
+                <clerk.sz28yun.com.widget.SelectableLinearLayout
+                    android:id="@+id/performance_money_vip_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/gear_tab_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_caption_normal"
+                        android:layout_marginTop="10dp"
+                        android:text="VIP成绩"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/performance_money_vip_tv"
+                        style="@style/text_normal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:text="0.00元"
+                        android:textSize="17sp" />
+
+                </clerk.sz28yun.com.widget.SelectableLinearLayout>
+
+                <View style="@style/line_view_horizontal" />
+
+                <clerk.sz28yun.com.widget.SelectableLinearLayout
+                    android:id="@+id/performance_money_ccj_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/gear_tab_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_caption_normal"
+                        android:layout_marginTop="10dp"
+                        android:text="餐餐抢券"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/performance_money_ccj_tv"
+                        style="@style/text_normal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:text="0.00元"
+                        android:textSize="17sp" />
+
+                </clerk.sz28yun.com.widget.SelectableLinearLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <clerk.sz28yun.com.widget.SelectableLinearLayout
+                    android:id="@+id/performance_money_merchant_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/gear_tab_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_caption_normal"
+                        android:layout_marginTop="10dp"
+                        android:text="招商资金"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/performance_money_merchant_tv"
+                        style="@style/text_normal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:text="0.00元"
+                        android:textSize="17sp" />
+
+                </clerk.sz28yun.com.widget.SelectableLinearLayout>
+
+                <View style="@style/line_view_horizontal" />
+
+                <clerk.sz28yun.com.widget.SelectableLinearLayout
+                    android:id="@+id/performance_money_expand_ll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/gear_tab_bg"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@style/text_caption_normal"
+                        android:layout_marginTop="10dp"
+                        android:text="推广资金"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/performance_money_expand_tv"
+                        style="@style/text_normal"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="4dp"
+                        android:text="0.00元"
+                        android:textSize="17sp" />
+
+                </clerk.sz28yun.com.widget.SelectableLinearLayout>
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <include layout="@layout/view_performance_head_day" />
+
+    <include layout="@layout/view_performance_head_mon" />
+</LinearLayout>

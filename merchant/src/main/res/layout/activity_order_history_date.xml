@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+
+        >
+
+        <TextView
+            android:id="@+id/year_tv"
+            style="@style/text_normal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_squ_b_cp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:drawableRight="@mipmap/ic_triangle_cp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="2016"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="年"
+            />
+        <TextView
+            android:id="@+id/month_tv"
+            style="@style/text_normal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_squ_b_cp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:drawableRight="@mipmap/ic_triangle_cp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="12"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="月"
+            />
+        <TextView
+            android:id="@+id/day_tv"
+            style="@style/text_normal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_squ_b_cp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:drawableRight="@mipmap/ic_triangle_cp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:text="4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:text="日"
+            />
+    </LinearLayout>
+
+
+
+
+    <RadioGroup
+        android:id="@+id/order_type_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/app_white"
+        >
+
+        <ccj.sz28yun.com.widget.BottomLineRadioButton
+            android:id="@+id/order_type_ccj_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="餐餐抢订单"
+            android:gravity="center"
+            android:textColor="@drawable/selector_text_normal"
+            android:background="@drawable/gear_tab_bg"
+            android:checked="true"
+            android:button="@null"
+            />
+
+        <ccj.sz28yun.com.widget.BottomLineRadioButton
+            android:id="@+id/order_type_consume_bill_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:text="先消费后买单"
+            android:textColor="@drawable/selector_text_normal"
+            android:background="@drawable/gear_tab_bg"
+            android:gravity="center"
+            android:button="@null"
+            />
+    </RadioGroup>
+
+   <FrameLayout
+       android:id="@+id/content_fl"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/activity_bg"></FrameLayout>
+
+
+</LinearLayout>

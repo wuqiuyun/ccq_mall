@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forget_step_second_pannel"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/activity_bg"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/account_edit_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/app_white"
+        android:layout_marginTop="@dimen/app_vertical_margin"
+        >
+        <TableRow
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/account_label_password"
+                android:layout_marginRight="8dp"
+                />
+
+            <EditText
+                android:id="@+id/password_et"
+                style="@style/edit_normal"
+                android:layout_weight="1"
+                android:hint="@string/account_label_password_hint"/>
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="确认密码"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                />
+
+            <EditText
+                android:id="@+id/password_rewrite_et"
+                style="@style/edit_normal"
+                android:layout_weight="1"
+                android:text=""
+                android:inputType="numberDecimal"
+                android:hint="请输入密码"/>
+
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+
+    </TableLayout>
+
+
+
+    <Button
+        style="@style/btn_larger"
+        android:id="@+id/submit_btn"
+        android:layout_below="@+id/account_edit_pannel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:text="@string/app_submit"
+        android:gravity="center"
+        />
+
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:id="@+id/back_login_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit_btn"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="放弃并放回登录"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/step_first_bottom_choice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="只需要两步就可以重置您的密码了哦"
+        />
+
+    <LinearLayout
+        android:id="@+id/step_first_bottom_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_choice_n"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/ic_choice_p"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

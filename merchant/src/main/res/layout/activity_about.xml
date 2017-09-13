@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <ImageView
+        android:id="@+id/qr_iv"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/gear_image_default"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/check_version_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:text="版本更新"
+        android:textSize="@dimen/ui_36_px"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:textColor="@color/app_white"
+        android:layout_above="@+id/agreemenet_tv"
+        android:background="@drawable/gear_selector_primary"
+        />
+
+
+    <TextView
+        android:id="@+id/agreemenet_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:text="餐餐抢商家协议"
+        android:textSize="@dimen/ui_36_px"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/shape_squ_b_cp"
+        android:layout_above="@+id/banbenhao_tv"
+        />
+
+    <TextView
+        android:id="@+id/banbenhao_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:text="app版本号："
+        android:textSize="@dimen/ui_28_px"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="11dp"
+        />
+
+    <TextView
+        android:id="@+id/down_share_tv"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:text="邀请我的朋友"
+        android:gravity="center"
+        android:textSize="@dimen/ui_36_px"
+        android:layout_marginTop="39dp"
+        android:textColor="@color/material_red"
+        android:layout_below="@+id/qr_iv"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/down_share_tv"
+        android:background="@color/material_red"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

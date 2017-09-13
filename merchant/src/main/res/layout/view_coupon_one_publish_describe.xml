@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:textSize="@dimen/ui_28_px"
+        android:textColor="@color/app_white"
+        android:text="根据实际需要勾选对应的商品发布餐餐券，可批量勾选，亦可单品勾选。批量勾选生成的餐餐券，使用统一的结算折扣及库存。\n
+        例如：餐餐抢券结算折扣为50%，张数为5张，勾选大青瓜和水鱼两个商品后，在用户APP里显示，两个餐餐券：
+        \n                    餐餐抢券：大青瓜  5元    库存5张
+        \n                    餐餐抢券：水鱼     50元  库存5张"
+        />
+
+</LinearLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_white"
+        android:layout_marginTop="5dp"
+        >
+        <View style="@style/line_view_vertical"/>
+        <LinearLayout
+            android:id="@+id/type_ll"
+            style="@style/item_normal"
+            android:gravity="center_vertical"
+
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="店员类型"
+                android:textColor="@color/app_grey"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+            <TextView
+                android:id="@+id/type_tv"
+                style="@style/edit_normal"
+                android:hint="请选择店员类型"
+                android:layout_height="32dp"
+                android:layout_width="wrap_content"
+                android:minWidth="100dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="4dp"
+                android:drawablePadding="4dp"
+                android:background="@drawable/shape_squ_white_gray"
+                android:drawableRight="@mipmap/ic_triangle_gray"
+                />
+
+
+        </LinearLayout>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="姓名"
+                android:textColor="@color/app_grey"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+            <EditText
+                android:id="@+id/name_et"
+                style="@style/edit_normal"
+                android:hint="请输入姓名"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="账号"
+                android:textColor="@color/app_grey"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+            <EditText
+                android:id="@+id/account_et"
+                style="@style/edit_normal"
+                android:hint="请输入账号"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="联系电话"
+                android:textColor="@color/app_grey"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+            <EditText
+                android:id="@+id/mobile_et"
+                style="@style/edit_normal"
+                android:hint="请输入联系电话"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            style="@style/item_normal"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:layout_width="80dp"
+                android:gravity="center|left"
+                android:text="密码"
+                android:textColor="@color/app_grey"
+                android:textSize="@dimen/ui_32_px"
+                />
+
+            <EditText
+                android:id="@+id/password_et"
+                style="@style/edit_normal"
+                android:hint="请输入密码"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:textSize="@dimen/ui_32_px"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:background="@null"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_asterisk"
+                android:layout_marginLeft="8dp"
+                />
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+
+    </TableLayout>
+
+
+    <TextView
+        android:id="@+id/submit_btn"
+        android:text="提交"
+        android:gravity="center"
+        style="@style/btn_normal"
+        android:background="@drawable/gear_selector_squ_primary"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

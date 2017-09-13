@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="101dp"
+        android:layout_height="22dp"
+        android:textSize="@dimen/ui_26_px"
+        android:text="2017-01-22"
+        android:textColor="@color/app_white"
+        android:paddingTop="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/gear_shape_squ_r4_gray"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:background="@drawable/gear_shape_squ_r4_white"
+        android:paddingTop="16dp"
+        >
+
+        <TextView
+            android:id="@+id/type_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评价消息"
+            android:layout_marginLeft="15dp"
+            android:textSize="@dimen/ui_30_px"
+            />
+        <TextView
+            android:id="@+id/status_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="未读"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/ui_28_px"
+            />
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的商品已下架XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/app_grey"
+            android:lines="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_below="@+id/type_name_tv"
+            android:layout_alignLeft="@+id/type_name_tv"
+            android:layout_alignRight="@+id/status_name_tv"
+            android:textSize="@dimen/ui_28_px"
+            />
+
+
+        <View style="@style/line_view_vertical"
+            android:id="@+id/line"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/content_tv"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="查看详情"
+            android:textColor="@color/app_grey"
+            android:lines="1"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:layout_below="@+id/line"
+            android:gravity="center_vertical"
+            android:drawableRight="@mipmap/ic_arrow_right"
+            android:layout_alignLeft="@+id/type_name_tv"
+            android:layout_alignRight="@+id/status_name_tv"
+            android:textSize="@dimen/ui_28_px"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

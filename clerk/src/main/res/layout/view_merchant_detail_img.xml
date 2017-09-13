@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="15dp"
+
+    >
+
+    <TextView
+        style="@style/text_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/activity_bg"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:text="基本图片" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_id_front_iv"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/img_id_front"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_id_back_iv"
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/img_id_back"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_license_iv"
+                android:layout_width="141dp"
+                android:layout_height="109dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/img_id_front" />
+
+            <ImageView
+                android:id="@+id/img_zzzj_iv"
+                android:layout_width="141dp"
+                android:layout_height="109dp"
+                android:layout_marginTop="22dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/text_normal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/activity_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:text="商家banner" />
+
+        <ImageView
+            android:id="@+id/img_banner_iv"
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            android:background="@drawable/gear_image_default"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/activity_bg"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:text="商家列表缩略图" />
+
+        <ImageView
+            android:id="@+id/img_snt_iv"
+            android:layout_width="108dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="12dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gear_image_default" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/app_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:text="商家外部环境图"
+        android:id="@+id/textView3" />
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:text="可登录商家APP或PC修改更清晰图片"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_merchant_first_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_merchant_second_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_merchant_third_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/text_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/app_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:text="商家内部环境图" />
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:text="干净卫生, 是我们生活的追求"
+        android:textColor="@color/colorPrimary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_kitchen_first_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_kitchen_second_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_kitchen_third_iv"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/gear_image_default" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

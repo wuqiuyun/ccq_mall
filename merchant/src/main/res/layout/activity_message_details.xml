@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/app_white"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="6dp"
+        >
+
+        <TextView
+            android:id="@+id/type_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="评价消息"
+
+            android:textSize="@dimen/ui_30_px"
+            />
+
+
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您的商品已下架XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/app_grey"
+            android:ellipsize="end"
+            android:layout_below="@+id/type_name_tv"
+            android:layout_alignLeft="@+id/type_name_tv"
+            android:textSize="@dimen/ui_28_px"
+            />
+
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/ui_26_px"
+            android:text="2017-01-22"
+            android:textColor="@color/app_grey"
+            android:paddingTop="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/content_tv"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

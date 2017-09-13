@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/app_white"
+        >
+
+        <EditText
+            android:id="@+id/keyword_et"
+            style="@style/edit_normal"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:drawableLeft="@mipmap/ic_search"
+            android:hint="查询商品"
+            android:singleLine="true"
+            android:lines="1"
+            android:background="@drawable/gear_shape_sem_edit"
+            android:imeOptions="actionSearch"
+            android:layout_height="45dp"
+            android:layout_marginTop="8dp"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="8dp"
+            />
+    </LinearLayout>
+
+
+    <com.cjj.MaterialRefreshLayout
+        android:id="@id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:numColumns="1"
+        android:verticalSpacing="1dp"
+        android:horizontalSpacing="1dp"
+        >
+
+
+    </GridView>
+    </com.cjj.MaterialRefreshLayout>
+
+
+    <View style="@style/line_view_vertical"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/gear_tab_bg_white"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="折扣后的价格"
+            android:textSize="@dimen/ui_32_px"
+            android:layout_marginRight="20dp"
+            />
+
+        <EditText
+            style="@style/edit_normal"
+            android:id="@+id/discount_percent_et"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint=""
+            android:textSize="@dimen/ui_28_px"
+            />
+
+        <TextView
+            style="@style/text_normal"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:text="元"
+            />
+
+        <TextView
+            style="@style/text_caption_normal"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:text="*用户端自动计算出折扣"
+            android:textSize="@dimen/ui_28_px"
+            />
+    </LinearLayout>
+
+
+
+    <View style="@style/line_view_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/gear_tab_bg_white"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="发布折扣券数量"
+            android:textSize="@dimen/ui_32_px"
+            android:layout_marginRight="20dp"
+            />
+        <EditText
+            style="@style/edit_normal"
+            android:id="@+id/discount_count_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:hint="不能小于0张"
+            android:textSize="@dimen/ui_28_px"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/gear_tab_bg_white"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:text="为客户节省"
+            android:textSize="@dimen/ui_32_px"
+            android:layout_marginRight="20dp"
+            />
+        <TextView
+            style="@style/edit_normal"
+            android:id="@+id/js_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_weight="1"
+            android:hint="0元"
+            android:textSize="@dimen/ui_28_px"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        style="@style/btn_larger"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gear_selector_squ_primary"
+        android:text="提交审核"
+        />
+</LinearLayout>

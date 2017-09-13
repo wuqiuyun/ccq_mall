@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--字体大小-->
+    <dimen name="app_text_display">22sp</dimen>
+    <dimen name="app_text_title">20sp</dimen>
+    <dimen name="app_text_subhead">18sp</dimen>
+    <dimen name="app_text_body">15sp</dimen>
+    <dimen name="app_text_caption">14sp</dimen>
+
+    <dimen name="app_title_bar_height">48dp</dimen>
+
+    <dimen name="app_vertical_margin">10dp</dimen>
+    <dimen name="app_horizontal_margin">12dp</dimen>
+
+    <dimen name="app_view_margin_normal">8dp</dimen>
+    <dimen name="app_view_margin_large">24dp</dimen>
+
+    <dimen name="ui_26_px">13sp</dimen>
+    <dimen name="ui_28_px">14sp</dimen>
+    <dimen name="ui_30_px">15sp</dimen>
+    <dimen name="ui_32_px">16sp</dimen>
+    <dimen name="ui_34_px">17sp</dimen>
+    <dimen name="ui_36_px">18sp</dimen>
+    <dimen name="ui_68_px">34sp</dimen>
+
+</resources>

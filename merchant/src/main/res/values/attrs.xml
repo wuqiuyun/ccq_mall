@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="ItemValueEditView">
+        <attr name="value_label" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EvaluateDesTextView">
+        <attr name="iconColor" format="color" />
+    </declare-styleable>
+
+</resources>

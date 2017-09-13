@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/activity_bg"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:paddingBottom="@dimen/app_vertical_margin"
+        android:background="@color/app_white"
+        >
+
+        <TableRow
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现银行: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/bank_name_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="2016-12-03"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现账户名: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/deposit_account_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="商家名称"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现银行账号: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/bank_account_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="VIP"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现金额: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/deposit_funds_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="xxxxxxxxxxxxxxxxxxxxx"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现申请时间: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/deposit_apply_date_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="18.00元"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="平台审核时间: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/aduit_date_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="18.00元"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="提现状态: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/status_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="18.00元"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/ui_26_px"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:text="由于各个银行之间的处理业务不同，到账时间为：2小时-48小时。请及时查询银行账号或留意银行短信。"
+        />
+
+
+</LinearLayout>

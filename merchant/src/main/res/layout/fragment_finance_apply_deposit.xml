@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View style="@style/line_view_vertical"
+        android:layout_marginTop="5dp"
+        />
+    <TableLayout
+        android:id="@+id/bank_info_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+
+        <TableRow
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="当前可提现余额: "
+                android:gravity="right"
+                android:textColor="@color/app_grey_p"
+                />
+
+            <TextView
+                android:id="@+id/funds_balance_tv"
+                style="@style/text_normal"
+                android:text=""
+                android:textColor="@color/app_grey_p"
+                />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="开户银行: "
+                android:gravity="right"
+                android:textColor="@color/app_grey_p"
+                />
+
+            <TextView
+                android:id="@+id/bank_name_tv"
+                style="@style/text_normal"
+                android:text=""
+                android:textColor="@color/app_grey_p"
+                />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="开户名称: "
+                android:gravity="right"
+                android:textColor="@color/app_grey_p"
+                />
+
+            <TextView
+                android:id="@+id/bank_user_name_tv"
+                style="@style/text_normal"
+                android:text=""
+                android:textColor="@color/app_grey_p"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="银行账号: "
+                android:gravity="right"
+                android:textColor="@color/app_grey_p"
+                />
+
+            <TextView
+                android:id="@+id/bank_account_tv"
+                style="@style/text_normal"
+                android:text=""
+                android:textColor="@color/app_grey_p"
+                />
+        </TableRow>
+
+    </TableLayout>
+    <View style="@style/line_view_vertical"/>
+    <View style="@style/line_view_vertical"
+        android:layout_marginTop="5dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:gravity="center_vertical"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:text="提现金额: "
+            android:gravity="right"
+            android:textColor="@color/app_grey_p"
+            />
+        
+        <EditText
+            android:id="@+id/funds_et"
+            android:layout_width="120dp"
+            android:layout_height="35dp"
+            android:background="@drawable/shape_squ_white_gray"
+            android:layout_marginLeft="16dp"
+            android:hint="请输入金额"
+            android:padding="4dp"
+            android:textColor="@color/app_grey_p"
+            android:inputType="numberDecimal"
+            />
+        <TextView
+            style="@style/text_normal"
+            android:text="*最低100元起"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            />
+    </LinearLayout>
+    <View style="@style/line_view_vertical"/>
+
+    <TextView
+        style="@style/text_normal"
+        android:text="由于银行工作流程问题，一般提现都需要3-7个工作日才会提现到你的银行账号。"
+        android:textColor="@color/colorPrimary"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:textSize="@dimen/ui_26_px"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/submit_btn"
+        style="@style/btn_larger"
+        android:layout_height="45dp"
+        android:text="提交申请"
+        android:gravity="center"
+        android:background="@drawable/gear_selector_squ_primary"
+        />
+</LinearLayout>

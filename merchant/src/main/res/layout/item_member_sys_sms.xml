@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/app_vertical_margin"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingTop="@dimen/app_vertical_margin">
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="时间: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/date_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="2016-12-03"
+                android:textColor="@color/app_text_gray_normal" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="签名: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/signtrue_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="商家名称"
+                android:textColor="@color/app_text_gray_normal" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="发送类型: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/type_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="VIP"
+                android:textColor="@color/app_text_gray_normal" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="条数: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/count_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="VIP"
+                android:textColor="@color/app_text_gray_normal" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="开销: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/payment_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="18.00元"
+                android:textColor="@color/app_text_gray_normal" />
+
+        </TableRow>
+
+        <TableRow android:layout_marginTop="8dp">
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:minWidth="80dp"
+                android:text="状态: "
+                android:textColor="@color/app_text_gray_normal" />
+
+            <TextView
+                android:id="@+id/status_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:gravity="left|center_vertical"
+                android:minWidth="80dp"
+                android:text="成功"
+                android:textColor="@color/colorPrimary" />
+
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

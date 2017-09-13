@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_white"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:paddingBottom="@dimen/app_vertical_margin"
+        >
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="店名: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/name_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="2016-12-03"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="店长: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/person_name_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="商家名称"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="店长电话: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/person_mobile_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="VIP"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="店地址: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/address_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="服务电话: "
+                android:gravity="right|center_vertical"
+                />
+            <TextView
+                android:id="@+id/service_mobile_tv"
+                style="@style/text_normal"
+                android:layout_height="wrap_content"
+                android:minWidth="80dp"
+                android:layout_marginLeft="16dp"
+                android:textColor="@color/app_text_gray_normal"
+                android:text="18.00元"
+                android:gravity="left|center_vertical"
+                />
+
+        </TableRow>
+    </TableLayout>
+
+    <View style="@style/line_view_vertical"/>
+
+    <TextView
+        android:id="@+id/delete_btn"
+        style="@style/btn_normal"
+        android:layout_width="70dp"
+        android:layout_height="31dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="5dp"
+        android:textSize="@dimen/ui_30_px"
+        android:layout_marginBottom="5dp"
+        android:text="删除"
+        />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/app_base_contain_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <per.sue.gear2.widget.titlebar.HeadBarView
+        android:id="@+id/app_head_bar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        />
+
+
+
+    <per.sue.gear2.widget.PageStatusLayout
+        android:id="@+id/app_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </per.sue.gear2.widget.PageStatusLayout>
+
+</LinearLayout>

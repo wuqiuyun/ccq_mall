@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryLight">#B3E5FC</color>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0381c6</color>
+    <color name="colorAccent">#CDDC39</color>
+    <color name="colorAccentDark">#9eab25</color>
+
+    <color name="app_white">#fefefe</color>
+    <color name="app_trans">#00000000</color>
+    <color name="gear_white">#fefefe</color>
+    <color name="gear_white_p">#ececec</color>
+    <color name="app_divider">#d9d9d9</color>
+    <color name="gear_gray">#bfbfbf</color>
+    <color name="gear_gray_p">#b9b9b9</color>
+
+    <color name="gear_q_orange">#cfa972</color>
+
+    <color name="app_line_grey">#e5e5e5</color>
+
+    <color name="app_blue">#379dbf</color>
+    <color name="app_blue_light">#007aff</color>
+
+
+    <color name="gear_blue">#34c2f5</color>
+    <color name="gear_blue_p">#37acd7</color>
+
+
+
+    <color name="gear_black_1">#2e2e2e</color>
+    <color name="gear_black_2">#3d3d3d</color>
+    <color name="gear_black_3">#595959</color>
+    <color name="gear_black_4">#939393</color>
+
+    <!--二维码-->
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="app_bg_color_b_80_p">#50000000</color>
+
+    <color name="activity_bg">#f2f2f2</color> <!--界面默认背景色-->
+
+</resources>

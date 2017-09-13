@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        >
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/app_text_subhead"
+            android:textColor="@color/app_white"
+
+            />
+
+        <ImageView
+            android:id="@+id/mine_setting_iv"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="center"
+            android:src="@mipmap/ic_settings"
+            android:background="@drawable/gear_tab_bg"
+            />
+
+        <ImageView
+            android:id="@+id/mine_share_iv"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="center"
+            android:layout_toLeftOf="@+id/mine_loginout_iv"
+            android:src="@mipmap/ic_share_white"
+            android:background="@drawable/gear_tab_bg"
+            />
+
+        <ImageView
+            android:id="@+id/mine_loginout_iv"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/ic_login_out_white"
+            android:background="@drawable/gear_tab_bg"
+            />
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/mine_child_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/app_divider"
+        android:drawSelectorOnTop="@null"
+        android:layout_weight="1"
+        android:dividerHeight="1px"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

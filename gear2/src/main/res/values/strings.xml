@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gear2</string>
+
+    <string name="main_nav_label_red_man">1</string>
+    <string name="main_nav_label_brand">2</string>
+    <string name="main_nav_label_notice">3</string>
+    <string name="main_nav_label_mine">4</string>
+
+    <string name="app_data_empty">抱歉, 暂无内容.</string>
+    <string name="app_data_loading">加载中...</string>
+    <string name="app_data_failed">加载中...</string>
+
+
+    <string name="scan_text">将二维码置于取景框中即可自动扫描</string>
+
+
+    <string name="newUpdateAvailable">发现新版本</string>
+    <string name="dialogPositiveButton">立即下载</string>
+    <string name="dialogNegativeButton">以后再说</string>
+    <string name="app_no_new_update">没有发现新版本</string>
+    <string name="download_progress">正在下载:%1$d%%</string>
+    <string name="download_success">下载完成，点击安装</string>
+</resources>

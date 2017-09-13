@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical"
+    >
+
+    <per.sue.gear2.widget.SquareImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/delete_tv"
+        style="@style/text_caption_normal"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#99000000"
+        android:layout_alignBottom="@+id/iv_avatar"
+        android:gravity="center"
+        android:text="删除"
+        />
+
+    <per.sue.gear2.widget.SquareImageView
+        android:id="@+id/iv_add"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@mipmap/images"
+        android:scaleType="fitCenter"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

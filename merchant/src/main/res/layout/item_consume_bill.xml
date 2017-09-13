@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:paddingBottom="@dimen/app_vertical_margin"
+        android:background="@color/app_white"
+        >
+
+        <TableRow>
+
+            <TextView
+                style="@style/text_normal"
+                android:text="订单号"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/order_num_tv"
+                style="@style/text_normal"
+                android:text="000"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="手机尾号"
+                android:minWidth="70dp"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/mobile_tail_tv"
+                style="@style/text_normal"
+                android:text="000"
+
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="实付"
+                android:layout_marginRight="10dp"
+                />
+            <TextView
+                android:id="@+id/payment_tv"
+                style="@style/text_normal"
+                android:text="000元"
+                />
+
+        </TableRow>
+
+        <LinearLayout
+
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="消费"
+                android:layout_width="70dp"
+                android:layout_marginRight="12dp"
+                />
+            <TextView
+                android:id="@+id/consume_tv"
+                style="@style/text_normal"
+                android:text="000元"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+
+                />
+            <TextView
+                android:id="@+id/check_btn"
+                style="@style/text_normal"
+                android:text="验证"
+                android:layout_marginRight="10dp"
+                android:minWidth="55dp"
+                android:padding="4dp"
+                android:layout_height="27dp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/selector_squ_r4_b_transparency_primary"
+                />
+        </LinearLayout>
+
+    </TableLayout>
+
+</LinearLayout>

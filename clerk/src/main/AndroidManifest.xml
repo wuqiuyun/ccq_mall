@@ -1,0 +1,248 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="clerk.sz28yun.com">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!--用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!--用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <!-- 录音权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 在SDCard中创建与删除文件权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="clerk.sz28yun.com.base.CCJApplication"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.AccountLoginActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="餐餐抢登录"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.AccountForgetPwdActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="取回密码"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="主界面"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.ChildAccountUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="编辑子账号"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.DemoGalleryActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="画廊"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.PerformanceDetActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="详细业绩"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.PerformanceMerchantActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家业绩"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.PerformanceChildActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="子账号业绩"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.BusinessChildActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="子账号业务"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.StatisticMemberActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="会员统计"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MerchantUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="新增商家"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantUpdateDraftActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家草稿"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantCategoryListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="行业类别"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MerchantDetailActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantAccountRegistActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家账号注册"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="设置界面"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.AboutActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="关于"
+            android:screenOrientation="portrait"
+            />
+
+        <service
+            android:name=".service.DownloadService"
+            android:exported="true" />
+        <!--*********************** 第三方******************************* -->
+        <!-- 微信 -->
+        <activity
+            android:name="clerk.sz28yun.com.wxapi.WXEntryActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:launchMode="singleTop">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wx5a45976f7ef126d0"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="clerk.sz28yun.com.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+
+        <!-- umeng -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57cf0539e0f55a522d00669c"></meta-data>
+
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.UMDefault" />
+
+        <!-- qq -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1105483425" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- sina -->
+        <activity
+            android:name="clerk.sz28yun.com.WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"></activity>`
+
+        <!-- 高德地图 -->
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="311cbb935763b80162e595266fb20193"></meta-data>
+        <service android:name="com.amap.api.location.APSService"></service><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+</manifest>

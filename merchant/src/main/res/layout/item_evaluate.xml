@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/gear_tab_bg_white"
+    android:paddingLeft="@dimen/app_horizontal_margin"
+    android:paddingRight="@dimen/app_horizontal_margin"
+    >
+
+    <TextView
+        android:id="@+id/user_name_tv"
+        style="@style/text_body_normal"
+        android:text="用户: ***123456"
+        android:textSize="@dimen/ui_28_px"
+        />
+
+    <TextView
+        android:id="@+id/order_num_tv"
+        style="@style/text_caption_normal"
+        android:text="订单号: 1234568975984454"
+        android:layout_marginTop="8dp"
+
+        android:layout_below="@+id/user_name_tv"
+
+        />
+    
+    <ImageView
+        android:id="@+id/user_avatar_iv"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/order_num_tv"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/gear_image_default"
+        />
+
+    <TextView
+        android:id="@+id/evaluate_content_tv"
+        style="@style/text_caption_normal"
+        android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_toRightOf="@+id/user_avatar_iv"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:minLines="4"
+        android:layout_below="@+id/order_num_tv"
+        />
+
+    <TextView
+        android:id="@+id/evaluate_date_tv"
+        style="@style/text_caption_normal"
+        android:text="2016-01-22 16:22"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/evaluate_content_tv"
+        />
+
+    <View style="@style/line_view_vertical"
+        android:layout_below="@+id/evaluate_date_tv"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <TextView
+        android:id="@+id/reply_content_tv"
+        style="@style/text_caption_normal"
+        android:text="掌柜回复: xxxxxxxxxxxxxxxxxxxxxx"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/app_yellow"
+        android:layout_below="@+id/evaluate_date_tv"
+        />
+
+
+    <TextView
+        android:id="@+id/reply_date_tv"
+        style="@style/text_caption_normal"
+        android:text="2016-01-22 16:22"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/reply_content_tv"
+        />
+
+    <Button
+        android:id="@+id/reply_btn"
+        android:layout_width="70dp"
+        android:layout_height="28dp"
+        android:text="回复"
+        android:textSize="@dimen/ui_28_px"
+        android:textColor="@color/app_white"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:layout_below="@+id/evaluate_date_tv"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/gear_selector_primary"
+        />
+
+</RelativeLayout>

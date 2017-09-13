@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+
+    <View
+        style="@style/line_view_vertical"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:background="@color/app_white"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:textSize="14sp"
+            android:text="登录账号"
+            />
+
+        <EditText
+            android:id="@+id/account_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:textSize="14sp"
+            android:hint="请输入账号"
+            />
+
+        <View
+            style="@style/line_view_vertical"/>
+
+        <TextView
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:text="登录密码"
+            />
+
+        <EditText
+            android:id="@+id/passwd_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:inputType="textPassword"
+            android:textSize="14sp"
+            android:hint="请输入登录密码"
+            />
+
+    </LinearLayout>
+    <View
+        style="@style/line_view_vertical"/>
+
+    <View
+        style="@style/line_view_vertical"
+        android:layout_marginTop="5dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="@dimen/app_vertical_margin"
+        android:background="@color/app_white"
+        android:orientation="vertical"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:textSize="14sp"
+            android:text="姓名"
+            />
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:textSize="14sp"
+            android:hint="请输入姓名"
+            />
+
+        <View
+            style="@style/line_view_vertical"/>
+
+        <TextView
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:text="联系电话"
+            />
+
+        <EditText
+            android:id="@+id/mobile_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/app_horizontal_margin"
+            android:layout_marginRight="@dimen/app_horizontal_margin"
+            android:inputType="phone"
+            android:hint="请输入联系电话"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+    <View
+        style="@style/line_view_vertical"/>
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:background="@drawable/gear_selector_primary"
+        android:textColor="@color/app_white"
+        android:textSize="18sp"
+        android:text="保存修改"
+        />
+
+
+    <TextView
+        style="@style/text_normal"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="子账号说明"
+        />
+
+    <TextView
+        style="@style/text_normal"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:textSize="12sp"
+        android:gravity="left"
+        android:text="子账号最多添加10个.登录只能使用登录账号, 登录账号填写规则为:A-Z, a-z. 0-9. 不包括特殊符号. 密码至少6位. 请注意！账号一经添加, 不能删除, 只能修改密码, 姓名和电话."
+        />
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+
+    <RadioGroup
+        android:id="@+id/type_rg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/app_horizontal_margin"
+        android:layout_marginRight="@dimen/app_horizontal_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/shape_squ_b_cp"
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:id="@+id/type_all_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:checked="true"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_tran_primary"
+            android:text="全部"
+            />
+
+        <View
+           style="@style/line_view_horizontal"
+            android:background="@color/colorPrimary"
+            />
+
+        <RadioButton
+            android:id="@+id/type_goods_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_tran_primary"
+            android:text="好评"
+            />
+        <View
+            style="@style/line_view_horizontal"
+            android:background="@color/colorPrimary"
+            />
+        <RadioButton
+            android:id="@+id/type_middle_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_tran_primary"
+            android:text="中评"
+            />
+        <View
+            style="@style/line_view_horizontal"
+            android:background="@color/colorPrimary"
+            />
+        <RadioButton
+            android:id="@+id/type_bad_rb"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:textColor="@color/color_text_primary_white"
+            android:background="@drawable/gear_selector_squ_tran_primary"
+            android:text="差评"
+            />
+
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#dddddd"
+        />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

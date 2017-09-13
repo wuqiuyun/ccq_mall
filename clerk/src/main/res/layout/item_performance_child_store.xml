@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/app_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/tv_data"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="日期"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_tijiao_store"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="提交商家数量"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_ruzhu_store"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="入驻商家数量"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/tv_look_store"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="查看详情"
+        android:textSize="13sp"
+        android:textColor="@color/charts_red"/>
+
+
+</LinearLayout>

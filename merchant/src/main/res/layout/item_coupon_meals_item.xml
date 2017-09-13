@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+       style="@style/item_setting_normal"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/name_tv"
+           style="@style/text_normal"
+            android:text="鱼肉"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:textColor="@color/app_grey"
+            />
+
+        <ImageView
+            android:id="@+id/minus_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_minus"
+            />
+
+        <TextView
+            android:id="@+id/num_tv"
+            style="@style/text_normal"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:textColor="@color/app_grey"
+            android:text="10"
+            />
+
+        <ImageView
+            android:id="@+id/plus_iv"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/ic_plus"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

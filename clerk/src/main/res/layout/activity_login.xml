@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/activity_bg"
+    android:layout_height="match_parent">
+
+
+
+
+    <TableLayout
+        android:id="@+id/account_edit_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_label_account"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@mipmap/ic_login_account"
+                android:drawablePadding="15dp"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/account_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/account_label_account_hint"/>
+        </TableRow>
+
+        <View style="@style/line_view_vertical"
+            android:layout_marginTop="10dp"
+            />
+
+        <TableRow
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_label_password"
+                android:drawablePadding="15dp"
+                android:layout_marginRight="20dp"
+                android:drawableLeft="@mipmap/ic_login_password"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:id="@+id/password_et"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:inputType="textPassword"
+                android:background="@null"
+                android:hint="@string/account_label_password_hint"/>
+        </TableRow>
+        <View style="@style/line_view_vertical"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_edit_pannel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignLeft="@+id/account_edit_pannel"
+        android:layout_alignRight="@+id/account_edit_pannel"
+        android:background="@drawable/gear_selector_primary"
+        android:textColor="@color/gear_white"
+        android:textSize="16sp"
+        android:text="@string/account_label_login"
+        />
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:id="@+id/contract_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="联系客服"
+        android:padding="4dp"
+        android:textSize="15sp"
+        android:layout_below="@+id/login_btn"
+        android:layout_alignLeft="@+id/login_btn"
+        android:layout_marginTop="19dp"
+        />
+
+    <TextView
+        style="@style/text_caption_normal"
+        android:id="@+id/forget_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/account_label_forget"
+        android:textSize="15sp"
+        android:padding="4dp"
+        android:layout_below="@+id/login_btn"
+        android:layout_alignRight="@+id/login_btn"
+        android:layout_marginTop="19dp"
+        />
+
+</RelativeLayout>

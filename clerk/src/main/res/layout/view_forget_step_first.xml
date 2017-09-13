@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/forget_step_first_pannel"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/activity_bg"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/account_edit_pannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="91dp"
+        >
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_label_mobile"
+                android:textSize="16sp"
+                android:layout_marginRight="25dp"
+                />
+
+            <EditText
+                android:id="@+id/account_et"
+                style="@style/edit_normal"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:background="@null"
+                android:hint="@string/account_label_mobile_hit"/>
+        </TableRow>
+        <View style="@style/line_view_vertical"
+            android:layout_marginTop="10dp"
+            />
+        <TableRow  android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/account_label_code"
+                android:textSize="16sp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp"
+                />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+
+                >
+                <EditText
+                    android:id="@+id/code_et"
+                    style="@style/edit_normal"
+                    android:layout_weight="1"
+                    android:text=""
+                    android:layout_height="40dp"
+                    android:background="@null"
+                    android:inputType="number"
+                    android:hint="@string/account_label_code_hint"/>
+
+                <View style="@style/line_view_horizontal"
+                    android:layout_margin="4dp"
+                    />
+
+                <TextView
+                    android:id="@+id/code_get_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/app_orange_p"
+                    android:padding="8dp"
+                    android:textSize="12sp"
+                    android:text="@string/account_label_code_get"
+                    android:layout_marginRight="8dp"
+                    />
+            </LinearLayout>
+
+        </TableRow>
+        <View style="@style/line_view_vertical"
+            android:layout_marginTop="10dp"
+            />
+    </TableLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/account_edit_pannel"
+        android:layout_alignLeft="@+id/account_edit_pannel"
+        android:layout_alignRight="@+id/account_edit_pannel"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        >
+
+
+        <Button
+            style="@style/btn_normal"
+            android:id="@+id/back_btn"
+            android:layout_width="130dp"
+            android:text="放弃并返回登录"
+            android:textSize="15sp"
+            android:background="@drawable/gear_selector_gray"
+            android:textColor="@color/app_white"
+            android:layout_alignParentLeft="true"
+            />
+
+        <Button
+            style="@style/btn_normal"
+            android:id="@+id/next_btn"
+            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
+            android:text="@string/app_opt_next"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/step_first_bottom_choice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:textSize="14sp"
+        android:text="只需要两步就可以重置您的密码了哦"
+        />
+
+    <LinearLayout
+        android:id="@+id/step_first_bottom_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_choice_p"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:src="@mipmap/ic_choice_n"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

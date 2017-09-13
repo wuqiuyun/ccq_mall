@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="95dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/gear_shape_sem_b_primary_white"
+                >
+
+                <TextView
+                    style="@style/text_caption_normal"
+                    android:text="好评"
+                    android:textSize="@dimen/ui_32_px"
+                    android:drawableLeft="@mipmap/ic_evaluate_good"
+                    android:drawablePadding="4dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <TextView
+                    android:id="@+id/evaluate_goods_count"
+                    style="@style/text_normal"
+                    android:textSize="@dimen/ui_30_px"
+                    android:textColor="@color/colorPrimary"
+                    android:text="0"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gear_shape_sem_b_primary_white"
+                >
+
+                <TextView
+                    style="@style/text_caption_normal"
+                    android:text="差评"
+                    android:textSize="@dimen/ui_32_px"
+                    android:drawableLeft="@mipmap/ic_evaluate_bad"
+                    android:drawablePadding="4dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <TextView
+                    android:id="@+id/evaluate_bad_count"
+                    style="@style/text_normal"
+                    android:textSize="@dimen/ui_30_px"
+                    android:textColor="@color/colorPrimary"
+                    android:text="0"
+                    />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+
+                android:background="@drawable/gear_shape_sem_b_primary_white"
+                >
+
+                <TextView
+                    style="@style/text_caption_normal"
+                    android:text="中评"
+                    android:textSize="@dimen/ui_32_px"
+                    android:drawableLeft="@mipmap/ic_evaluate_middle"
+                    android:drawablePadding="4dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <TextView
+                    android:id="@+id/evaluate_middle_count"
+                    style="@style/text_normal"
+                    android:textSize="@dimen/ui_30_px"
+                    android:textColor="@color/colorPrimary"
+                    android:text="0"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/to_repost_ll"
+                android:layout_width="135dp"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/gear_shape_sem_b_primary_white"
+                >
+
+                <TextView
+                    style="@style/text_caption_normal"
+                    android:text="已回复"
+                    android:textSize="@dimen/ui_32_px"
+                    android:drawableLeft="@mipmap/ic_evaluate_repost"
+                    android:drawablePadding="4dp"
+                    android:layout_marginRight="8dp"
+                    />
+                <TextView
+                    android:id="@+id/evaluate_reply_count"
+                    style="@style/text_normal"
+                    android:textSize="@dimen/ui_30_px"
+                    android:textColor="@color/colorPrimary"
+                    android:text="0"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_white"
+        >
+
+        <LinearLayout
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:background="@color/activity_bg"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:text="商家信息"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                />
+
+        </LinearLayout>
+
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="商家名称"
+                />
+            <TextView
+                android:id="@+id/merchant_name_tv"
+                style="@style/edit_normal"
+                android:hint="商家名称"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="商家账号"
+                />
+
+            <TextView
+                android:id="@+id/merchant_member_account_tv"
+                style="@style/edit_normal"
+                android:hint="会员账号"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                />
+
+
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:id="@+id/merchant_category_ll"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="所属行业"
+                />
+
+            <TextView
+                android:id="@+id/merchant_category_tv"
+                style="@style/edit_normal"
+                android:hint="所属行业"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                />
+
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/text_caption_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="商家地址"
+                    android:textColor="@color/charts_black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/tv_dw_province"
+                    style="@style/text_caption_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/btback"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:textColor="@color/charts_black" />
+
+                <TextView
+                    android:id="@+id/tv_dw_city"
+                    style="@style/text_caption_normal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:layout_weight="1"
+                    android:background="@mipmap/btback"
+                    android:minHeight="40dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:textColor="@color/charts_black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/merchant_qu_tv"
+                        style="@style/edit_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:hint="镇/区"
+                        android:singleLine="true"
+                        android:minHeight="40dp"
+                        android:padding="2dp"
+                        android:gravity="center_vertical"/>
+
+                    <View style="@style/line_view_vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/merchant_street_tv"
+                        style="@style/edit_normal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:hint="县/街道办"
+                        android:gravity="center_vertical"
+                        android:minHeight="40dp"
+                        android:singleLine="true"
+                        android:padding="2dp" />
+
+                    <View style="@style/line_view_vertical" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:src="@mipmap/ic_asterisk" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/merchant_address_tv"
+                    style="@style/edit_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:hint="详细地址具体到门牌号"
+                    android:minHeight="40dp"
+                    android:singleLine="true"
+                    android:padding="2dp"
+                    android:gravity="center_vertical"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="4dp"
+                    android:src="@mipmap/ic_asterisk" />
+            </LinearLayout>
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginBottom="8dp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/text_normal"
+            android:text="负责人信息"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/activity_bg"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:gravity="center_vertical"
+            />
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="商家法人"
+                />
+            <TextView
+                android:id="@+id/merchant_fr_name_tv"
+                style="@style/edit_normal"
+                android:hint="真实姓名"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="身份证"
+                />
+            <TextView
+                android:id="@+id/merchant_fr_id_tv"
+                style="@style/edit_normal"
+                android:hint="身份证"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="联系电话"
+                />
+            <TextView
+                android:id="@+id/merchant_fr_mobile_connect_tv"
+                style="@style/edit_normal"
+                android:hint="联系电话"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+        <View style="@style/line_view_vertical"/>
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            >
+
+            <TextView
+                style="@style/text_normal"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="服务电话"
+                />
+            <TextView
+                android:id="@+id/merchant_fr_mobile_service_tv"
+                style="@style/edit_normal"
+                android:hint="服务电话"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

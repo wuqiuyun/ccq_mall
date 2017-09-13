@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<per.sue.gear2.widget.PageStatusLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/performance_page_status_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+  >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/app_white"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/performance_day_rb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/app_white"
+            android:minWidth="100dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/gear_selector_primary"
+            android:text="当天"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/type_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="VIP成绩"
+            />
+        <TextView
+            android:id="@+id/money_type_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥0.00 元"
+            android:textColor="@color/colorPrimary"
+            />
+
+    </LinearLayout>
+
+
+
+    <include layout="@layout/view_performance_head_day"/>
+
+
+        <com.cjj.MaterialRefreshLayout
+            android:id="@+id/performance_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/performance_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:divider="@color/app_divider"
+                android:dividerHeight="1px"
+                />
+
+        </com.cjj.MaterialRefreshLayout>
+
+
+
+</LinearLayout>
+</per.sue.gear2.widget.PageStatusLayout>

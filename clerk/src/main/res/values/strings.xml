@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">餐餐抢业务版</string>
+
+    <string name="app_submit">提交</string>
+    <string name="app_opt_next">下一步</string>
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+
+    <string name="account_label_account">账号</string>
+    <string name="account_label_account_hint">用户名/邮箱/手机号</string>
+    <string name="account_tip_account_empty">用户名不能为空</string>
+    <string name="account_label_password">密码</string>
+    <string name="account_tip_password_empty">密码不能为空</string>
+    <string name="account_label_password_hint">请输入密码</string>
+    <string name="account_label_login">登录</string>
+    <string name="account_label_regist">注册</string>
+    <string name="account_label_forget">忘记密码</string>
+    <string name="account_label_bootom_caption">\@海育松</string>
+
+    <string name="account_label_mobile">手机号码</string>
+    <string name="account_label_mobile_hit">请输入手机号</string>
+    <string name="account_label_password_new">新密码</string>
+    <string name="account_tip_password_new_hint">最少6位</string>
+    <string name="account_label_password_rewrite">再来一次</string>
+    <string name="account_label_mobile_rewrite">请重新输入</string>
+
+    <string name="account_label_code">验证码</string>
+    <string name="account_label_code_get">获取验证码</string>
+    <string name="account_label_code_hint">请输入验证码</string>
+    <string name="account_label_time_code">%1$d秒后重新获取</string>
+
+    <string name="account_label_agreement">同意XXX协议</string>
+
+    <string name="title_label_achievement_my">我的成就</string>
+    <string name="title_label_business_my">我的业务</string>
+    <string name="title_label_performance_my">我的业绩</string>
+
+
+
+
+
+
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+</resources>

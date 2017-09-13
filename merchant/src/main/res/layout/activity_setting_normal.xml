@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/app_title_bar_height"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/bar_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/app_horizontal_margin"
+            android:paddingRight="@dimen/app_horizontal_margin"
+            android:text="通用设置"
+            android:textColor="@color/app_white"
+            android:textSize="@dimen/app_text_title" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View style="@style/line_view_vertical" />
+
+            <TextView
+                android:id="@+id/employee_tv"
+                style="@style/item_setting_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="员工账号设置"
+                android:textColor="@color/app_text_black_normal" />
+
+            <View style="@style/line_view_vertical" />
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/help_tv"
+                style="@style/item_setting_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="使用帮助"
+                android:textColor="@color/app_text_black_normal" />
+
+            <View style="@style/line_view_vertical" />
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/editpassword_tv"
+                style="@style/item_setting_normal"
+                android:drawableRight="@mipmap/ic_arrow_right"
+                android:text="修改密码"
+                android:textColor="@color/app_text_black_normal" />
+
+            <View style="@style/line_view_vertical" />
+
+            <View
+                style="@style/line_view_vertical"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:id="@+id/cache_clean_ll"
+                style="@style/item_setting_normal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="清理缓存"
+                    android:textColor="@color/app_text_black_normal" />
+
+                <TextView
+                    android:id="@+id/cache_clean_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0M"
+                    android:textColor="@color/app_text_black_normal" />
+            </LinearLayout>
+
+            <View style="@style/line_view_vertical" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/login_out_btn"
+            style="@style/btn_normal"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@drawable/gear_selector_squ_primary"
+            android:gravity="center"
+            android:text="退出登录" />
+    </RelativeLayout>
+
+</LinearLayout>

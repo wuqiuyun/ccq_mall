@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_margin="10dip"
+    android:background="@color/gear_white"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:minWidth="300dip"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_weight="1"
+            android:text="设置日期"
+            android:textColor="@color/gear_blue"
+            android:textSize="20sp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/gear_selector_primary"
+            android:minHeight="50dip"
+            android:textColor="@color/gear_white"
+            android:text="确定" />
+    </LinearLayout>
+
+
+
+    <View style="@style/line_view_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/wheel_startdate_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:selectionDivider="@drawable/wheel_blue_line"
+            app:selectionDividerActiveAlpha="255"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="2.0dip"
+            app:visibleItems="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dip"
+            android:text="年"
+            android:textColor="@color/gear_blue"
+            android:textSize="13sp" />
+
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/wheel_startdate_month"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:selectionDivider="@drawable/wheel_blue_line"
+            app:selectionDividerActiveAlpha="255"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="2.0dip"
+            app:visibleItems="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dip"
+            android:text="月"
+            android:textColor="@color/gear_blue"
+            android:textSize="13sp" />
+
+        <antistatic.spinnerwheel.WheelVerticalView
+            android:id="@+id/wheel_startdate_day"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            app:selectionDivider="@drawable/wheel_blue_line"
+            app:selectionDividerActiveAlpha="255"
+            app:selectionDividerDimmedAlpha="255"
+            app:selectionDividerHeight="2.0dip"
+            app:visibleItems="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="3dip"
+            android:text="日"
+            android:textColor="@color/gear_blue"
+            android:textSize="13sp" />
+         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <antistatic.spinnerwheel.WheelHorizontalView
+                android:id="@+id/wheel_startdate_hour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:visibleItems="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dip"
+                android:text="时"
+                android:textColor="@color/gear_blue"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <antistatic.spinnerwheel.WheelHorizontalView
+                android:id="@+id/wheel_startdate_minute"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:visibleItems="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="3dip"
+                android:text="分"
+                android:textColor="@color/gear_blue"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>

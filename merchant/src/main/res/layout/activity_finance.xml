@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg">
+
+    <LinearLayout
+        android:id="@+id/payment_total_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/app_white"
+        >
+
+        <TextView
+            android:id="@+id/payment_total_tv"
+            style="@style/text_normal"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="30dp"
+            android:textSize="@dimen/app_text_display"
+            android:text="0.00元"
+            />
+        <TextView
+            style="@style/text_caption_normal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="25dp"
+            android:textSize="@dimen/app_text_body"
+            android:text="资金余额"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:id="@+id/payment_ccj_ll"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/gear_tab_bg"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/text_caption_normal"
+                android:drawableTop="@mipmap/ic_finance_ccj"
+                android:drawablePadding="4dp"
+                android:textSize="@dimen/ui_28_px"
+                android:text="餐餐抢费"
+                />
+
+            <TextView
+                android:id="@+id/payment_ccj_tv"
+                style="@style/text_normal"
+                android:text="0.00元"
+                android:textSize="@dimen/ui_28_px"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payment_vip_ll"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/gear_tab_bg"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/text_caption_normal"
+                android:drawableTop="@mipmap/ic_finance_vip"
+                android:drawablePadding="4dp"
+                android:text="VIP会员费"
+                android:textSize="@dimen/ui_28_px"
+                />
+
+            <TextView
+                android:id="@+id/payment_vip_tv"
+                style="@style/text_normal"
+                android:textSize="@dimen/ui_28_px"
+                android:text="0.00元"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payment_business_ll"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/gear_tab_bg"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/text_caption_normal"
+                android:drawableTop="@mipmap/ic_finance_business"
+                android:drawablePadding="4dp"
+                android:text="招商奖金"
+                android:textSize="@dimen/ui_28_px"
+                />
+
+            <TextView
+                android:id="@+id/payment_business_tv"
+                style="@style/text_normal"
+                android:text="0.00元"
+                android:textSize="@dimen/ui_28_px"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/payment_expand_ll"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:background="@drawable/gear_tab_bg"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+            <TextView
+                style="@style/text_caption_normal"
+                android:drawableTop="@mipmap/ic_finance_expand"
+                android:drawablePadding="4dp"
+                android:text="推广奖金"
+                android:textSize="@dimen/ui_28_px"
+                />
+
+            <TextView
+                android:id="@+id/payment_expand_tv"
+                style="@style/text_normal"
+                android:textSize="@dimen/ui_28_px"
+                android:text="0.00元"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    
+    <TableLayout
+        android:id="@+id/bank_info_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/app_horizontal_margin"
+        android:paddingRight="@dimen/app_horizontal_margin"
+        android:background="@color/app_white"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        >
+        <TextView
+            style="@style/text_normal"
+            android:text="已绑定银行信息"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TableRow
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="开户银行: "
+                />
+
+            <TextView
+                android:id="@+id/bank_name_tv"
+                style="@style/text_normal"
+                android:text=""
+                />
+
+
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="开户名称: "
+                />
+
+            <TextView
+                android:id="@+id/bank_user_name_tv"
+                style="@style/text_normal"
+                android:text=""
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="8dp"
+            >
+            <TextView
+                style="@style/text_normal"
+                android:text="银行账号: "
+                />
+
+            <TextView
+                android:id="@+id/bank_account_tv"
+                style="@style/text_normal"
+                android:text=""
+                />
+
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>

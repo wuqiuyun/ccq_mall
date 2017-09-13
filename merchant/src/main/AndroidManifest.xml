@@ -1,0 +1,408 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ccj.sz28yun.com">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <!--用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!--用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sjblogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name=".base.CCJApplication"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.AccountLoginActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="登录"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.AccountForgetPwdActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="忘记密码"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="主界面"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.VerifyInputActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="输入验证"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.WebviewActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家预览"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.VerifyQRActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="二维码验证"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.GoodsCategoryListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商品分类"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.GoodsUploadListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商品仓库列表"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.GoodsUploadActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商品上传"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.ConsumeBillActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="先消费后买单"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.ConsumeBillSettingActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="消费买单设置"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EvaluateManangerActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="评价管理"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EvaluateMerchantActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家评论"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EvaluateGoodsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商品评论"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EvaluateReplyActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="评价回复"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EvaluateRepostActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="已回复/未回复"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.OperatingDataActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="经营数据"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.AboutActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="关于"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.OrderHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="订单历史"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.OrderHistoryDateActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="日期筛选"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.OrderConsumDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="订单详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.OrderCCJDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="订单详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MemberSysActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="会员管理系统"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MemberSysSmsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="会员系统"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MemberVipListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="会员列表"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MemberVipDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家会员消费列表"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MemberSysSMSMemberSysActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="发送短信"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.CouponOnePublistActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="发布单品券"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.CouponMealsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="发布套餐券"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.CouponMealsPublishActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="新增套餐券"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.CouponMealsItemActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="套餐详情"
+            android:screenOrientation="portrait"
+            />
+
+
+        <activity android:name=".activity.CouponOnePublishActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="发布单品券"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.PieChartActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="测试饼状图"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MessageDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="消息详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantServiceActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="服务设置"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantHomeUpdateImgActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家装修-修改轮播图"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantHomeUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="商家首页设置"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantUpdateImgActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="图片编辑"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.MerchantChainActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="分店列表"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.MerchantChainAddActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="添加分店"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.SettingNormalActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="通用设置"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EditpasswordActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="修改密码"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.EmployeeListActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="员工列表"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.EmployeeUpdateActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="修改员工/新添员工"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.FinanceActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="财务结账"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.FinanceTypeActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="财务模块详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.FinanceTypeDayActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="当天统计"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".activity.FinanceDepositDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="提现/冻结详情"
+            android:screenOrientation="portrait"
+            />
+
+        <activity android:name=".activity.FinanceApplyDepositActivity"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="提现申请"
+            android:screenOrientation="portrait"
+            />
+
+
+        <service
+            android:name=".service.DownloadService"
+            android:exported="true" />
+
+
+        <!-- umeng -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="57cf0539e0f55a522d00669c"></meta-data>
+
+        <activity
+            android:name="com.umeng.socialize.editorpage.ShareActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.UMDefault" />
+
+        <!-- qq -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1105608160" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- sina -->
+        <activity
+            android:name=".WBShareActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"></activity>`
+
+        <!-- 高德地图 -->
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="c0ea09329b537884733970fd1b36951b"></meta-data>
+        <service android:name="com.amap.api.location.APSService"></service><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
